@@ -29,5 +29,8 @@
 	<link rel="stylesheet" href="css/custom.css">
 	<script src="js/custom.js"></script>
 
+	<!-- Custom Plugins -->
+	<!-- SweetAlert --><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	
 
 </head>
