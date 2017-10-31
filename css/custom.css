@@ -1,0 +1,45 @@
+body,html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* --------------------//----------------------
+------ Institucional ------
+
+> azul 
+HEX	#4967a9
+RGB	rgb(73, 103, 169)
+
+> cinza
+HEX	#5f625f
+RGB	rgb(95, 98, 95)
+
+----- Complementares ------
+
+> Verde escuro
+HEX	#006165
+RGB	rgb(0, 97, 101)
+
+> Verde
+HEX	#42ae67
+RGB	rgb(66, 174, 103)
+
+> Verde claro
+HEX	#aec813
+RGB	rgb(174, 200, 19)
+
+> Azul claro
+HEX	#1bb7d0
+RGB	rgb(27, 183, 208)
+
+> Azul escuro
+HEX	#263473
+RGB	rgb(38, 52, 115)
+
+> Roxo
+HEX	#524595
+RGB	rgb(82, 69, 149)
+--------------------//---------------------- */
