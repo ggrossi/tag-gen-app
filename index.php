@@ -1,5 +1,7 @@
-<?php 
+<!DOCTYPE html>
+<html>
 
-	echo "app created";
+<?php include("header.php"); ?>
+<?php include("body.php"); ?>
 
-?>
+</html>
