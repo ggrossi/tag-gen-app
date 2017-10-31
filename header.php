@@ -21,6 +21,11 @@
 	<meta name="twitter:description" content="descricao da ferramenta">
 	<meta name="twitter:image" content="url da imagem pro twitter">
 
+	<!-- Custom Plugins -->
+	<!-- SweetAlert --><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<!-- jQuery --><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
 	<!-- Bootstrap CDN -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
@@ -28,9 +33,6 @@
 	<!-- Custom Bootstrap -->
 	<link rel="stylesheet" href="css/custom.css">
 	<script src="js/custom.js"></script>
-
-	<!-- Custom Plugins -->
-	<!-- SweetAlert --><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	
 
 </head>
