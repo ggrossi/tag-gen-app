@@ -22,8 +22,9 @@
 	<meta name="twitter:image" content="url da imagem pro twitter">
 
 	<!-- Custom Plugins -->
-	<!-- SweetAlert --><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-	<!-- jQuery --><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- SweetAlert --> <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<!-- jQuery --> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Tether --> <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
 
 	<!-- Bootstrap Offline -->
 	<link rel="stylesheet" href="css/bootstrap.css">
