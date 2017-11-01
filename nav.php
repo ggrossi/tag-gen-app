@@ -7,7 +7,7 @@
 		</a>
 
 		<!-- title -->
-		<h1 class="name navbar-text">O Incrível Gerador Meta Tags</h1>
+		<h1 class="name navbar-text">O Incrível Gerador de Meta Tags</h1>
 
 		<!-- twitter share -->
 		<a class="mr-4 my-2 btn btn-social-icon btn-twitter float-right" href="#">
