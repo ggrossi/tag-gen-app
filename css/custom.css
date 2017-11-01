@@ -54,3 +54,10 @@ body {
 	font-size: 0.8rem; 
 	font-weight: 300;
 }
+
+.name {
+	font-family: 'Lobster Two';
+	font-weight: 600;
+	font-size: 2rem;
+	color: rgb(38, 52, 115) !important ;
+}

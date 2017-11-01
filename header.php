@@ -46,5 +46,9 @@
 
 	<!-- Roboto Font -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+	<!-- Lato Font --> 
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+	<!-- Lobster Two Font --> 
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
 
 </head>
