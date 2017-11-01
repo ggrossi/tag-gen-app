@@ -45,6 +45,16 @@ body {
 	background: linear-gradient(to bottom right, #1BB7D0, #524595);
 }
 
+.fixed-top {
+	position: relative;
+}
+.name {
+	font-family: 'Lobster Two';
+	font-weight: 600;
+	font-size: 2rem;
+	color: rgb(38, 52, 115) !important ;
+}
+
 .footer {
 	background-color: black;
 }
@@ -53,11 +63,4 @@ body {
 	color: white; 
 	font-size: 0.8rem; 
 	font-weight: 300;
-}
-
-.name {
-	font-family: 'Lobster Two';
-	font-weight: 600;
-	font-size: 2rem;
-	color: rgb(38, 52, 115) !important ;
 }

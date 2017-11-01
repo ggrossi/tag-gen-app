@@ -1,9 +1,15 @@
 <body>
+	
+	<section>
+		<?php include 'nav.php'; ?>
+	</section>
 
-	<?php
-		include("nav.php");
-		include("footer.php");
-		include ("content.php");
-	?>
+	<section>
+		<?php include 'content.php'; ?>
+	</section>
+
+	<section>
+		<?php include 'footer.php'; ?>
+	</section>
 
 </body>
