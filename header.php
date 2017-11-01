@@ -29,8 +29,12 @@
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<!-- jQuery --> 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<!-- Tether --> 
+	<!-- Tether CDN --> 
 	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+	<!-- Font Awesome CDN-->
+	<script src="https://use.fontawesome.com/d9eebf3e34.js"></script>
+	<!-- Bootstrap Social -->
+	<link rel="stylesheet" type="text/css" href="css/bt-social/bootstrap-social.css">
 
 	<!-- Bootstrap CDN -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
