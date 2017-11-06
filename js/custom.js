@@ -19,58 +19,22 @@ function validateField() {
 	}
 }*/
 
-function subLead(){
-	$(window).click('submit', function (e) {
-		e.ajax({
+function enviaDados() {
+	$("#formLead").submit(function(e) {
+		e.preventDefault();
+		$.ajax({
 			type: 'post',
-			url:  'con.php',
-			data: $('form').serialize(),
+			url: 'con.php',
+			data: $("#formLead").serialize(),
 		});
 	});
 }
 
-$(window).submit(function(event) {
+$("#enviar").click(function() {
 	if (validateField()) {
-		alert("Preencha com um e-mail válido");
-		event.preventDefault();
-	} else {
-		subLead();
-		$('#modalLead').modal('hide');
-	}
-});
-/*	$('#formLead').click('#enviar', function (e) {
-		e.preventDefault();
-		$.ajax({
-			type: 'post',
-			url:  'http://localhost/tag-gen-app/api.php',
-			data: $('#formLead').serialize(),
-		});
-	});*/
-/*
-$("#submit").click(function() {
-	if (verificaCampos()) {
-		alert("Preencha os campos vazios.");
+		alert("Ops");
+		return false;
 	} else {
 		enviaDados();
 	}
-});*/
-
-/*$(function () {
-	$('form').on('submit', function (e) {
-		e.preventDefault();
-		if (validateField()) {
-			alert("Preencha com um e-mail válido");
-			event.preventDefault();
-		} else {
-			$.ajax({
-				type: 'post',
-				url: 'con.php',
-				data: $('form').serialize(),
-				success: function () {
-					alert('form was submitted');
-				}
-			});
-			$('#modalLead').modal('hide');
-		}
-	});
-});*/
+});
