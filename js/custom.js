@@ -20,12 +20,12 @@ function validateField() {
 }*/
 
 function enviaDados() {
-	$("#formLead").submit(function(e) {
+	$('form').submit(function(e) {
 		e.preventDefault();
 		$.ajax({
 			type: 'post',
 			url: 'con.php',
-			data: $("#formLead").serialize(),
+			data: $('form').serialize(),
 		});
 	});
 }
@@ -33,8 +33,9 @@ function enviaDados() {
 $("#enviar").click(function() {
 	if (validateField()) {
 		alert("Ops");
-		return false;
+		event.preventDefault();
 	} else {
 		enviaDados();
+		$('#modalLead').modal('hide');
 	}
 });
