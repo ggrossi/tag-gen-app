@@ -22,20 +22,17 @@ function validateField() {
 function enviaDados() {
 	$('form').submit(function(e) {
 		e.preventDefault();
-		$.ajax({
-			type: 'post',
-			url: 'con.php',
-			data: $('form').serialize(),
-		});
+		if (validateField()) {
+			alert("Ops");
+			e.preventDefault();
+		} else {
+			$.ajax({
+				type: 'post',
+				url: 'con.php',
+				data: $('form').serialize(),
+			});
+			preventDefault();
+			$('#modalLead').modal('hide');
+		}
 	});
 }
-
-$("#enviar").click(function() {
-	if (validateField()) {
-		alert("Ops");
-		event.preventDefault();
-	} else {
-		enviaDados();
-		$('#modalLead').modal('hide');
-	}
-});
