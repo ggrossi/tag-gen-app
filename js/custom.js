@@ -31,7 +31,7 @@ function enviaDados() {
 				url: 'con.php',
 				data: $('form').serialize(),
 			});
-			preventDefault();
+			e.preventDefault();
 			$('#modalLead').modal('hide');
 		}
 	});
