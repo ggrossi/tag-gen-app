@@ -19,7 +19,7 @@ function validateField() {
 	}
 }*/
 
-function enviaDados() {
+/*function enviaDados() {
 	$('form').submit(function(e) {
 		e.preventDefault();
 		if (validateField()) {
@@ -35,4 +35,24 @@ function enviaDados() {
 			$('#modalLead').modal('hide');
 		}
 	});
+}*/
+
+//ajax call functions.php
+function enviaDados() {
+	$('form').submit(function(e) {
+		e.preventDefault();
+		$.ajax({
+			type: 'post',
+			url: 'con.php',
+			data: $('form').serialize(),
+		});
+	});
 }
+
+$("#submit").click(function() {
+	if (verificaCampos()) {
+		alert("Oops");
+	} else {
+		enviaDados();
+	}
+});
