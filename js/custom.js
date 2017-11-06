@@ -19,14 +19,14 @@ function validateField() {
 	}
 }*/
 
-/*function subLead(){
-$(window).click('submit', function (e) {
-	e.ajax({
-		type: 'post',
-		url:  'api.php',
-		data: $('form').serialize(),
+function subLead(){
+	$(window).click('submit', function (e) {
+		e.ajax({
+			type: 'post',
+			url:  'con.php',
+			data: $('form').serialize(),
+		});
 	});
-});
 }
 
 $(window).submit(function(event) {
@@ -37,7 +37,7 @@ $(window).submit(function(event) {
 		subLead();
 		$('#modalLead').modal('hide');
 	}
-});*/
+});
 /*	$('#formLead').click('#enviar', function (e) {
 		e.preventDefault();
 		$.ajax({
@@ -55,16 +55,22 @@ $("#submit").click(function() {
 	}
 });*/
 
-$(function () {
+/*$(function () {
 	$('form').on('submit', function (e) {
 		e.preventDefault();
-		$.ajax({
-			type: 'post',
-			url: 'con.php',
-			data: $('form').serialize(),
-			success: function () {
-				alert('form was submitted');
-			}
-		});
+		if (validateField()) {
+			alert("Preencha com um e-mail válido");
+			event.preventDefault();
+		} else {
+			$.ajax({
+				type: 'post',
+				url: 'con.php',
+				data: $('form').serialize(),
+				success: function () {
+					alert('form was submitted');
+				}
+			});
+			$('#modalLead').modal('hide');
+		}
 	});
-});
+});*/
