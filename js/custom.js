@@ -19,24 +19,6 @@ function validateField() {
 	}
 }*/
 
-/*function enviaDados() {
-	$('form').submit(function(e) {
-		e.preventDefault();
-		if (validateField()) {
-			alert("Ops");
-			e.preventDefault();
-		} else {
-			$.ajax({
-				type: 'post',
-				url: 'con.php',
-				data: $('form').serialize(),
-			});
-			e.preventDefault();
-			$('#modalLead').modal('hide');
-		}
-	});
-}*/
-
 //ajax call functions.php
 function enviaDados() {
 	$('form').submit(function(e) {
@@ -49,10 +31,11 @@ function enviaDados() {
 	});
 }
 
-$("#submit").click(function() {
+$("#enviar").click(function() {
 	if (verificaCampos()) {
 		alert("Oops");
 	} else {
 		enviaDados();
+		$('#modalLead').modal('hide');
 	}
 });
