@@ -9,12 +9,12 @@
 
 			<!-- modal content -->
 			<div class="modal-body">
-				<form id="formLead" class="clearfix">
+				<form id="form" class="clearfix">
 					<div class="form-group">
 						<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email: exemplo@exemplo.com">
 						<small id="emailHelp" class="form-text text-muted">Nós não iremos compartilhar este e-mail com outros.</small>
 					</div>
-					<button id="enviar" type="submit" class="btn btn-primary">Enviar</button>
+					<button id="submit" type="submit" class="btn btn-primary">Enviar</button>
 				</form>
 			</div>
 
