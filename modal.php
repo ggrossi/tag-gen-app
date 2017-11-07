@@ -1,4 +1,4 @@
-<div id="modalLead" class="modal fade" data-backdrop="static" data-keyboard="false">
+<div name="modalLead" id="modalLead" class="modal fade" data-backdrop="static" data-keyboard="false">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			
@@ -9,12 +9,11 @@
 
 			<!-- modal content -->
 			<div class="modal-body">
-				<form id="formLead" class="clearfix" method="post">
+				<form name="formLead" id="formLead" class="clearfix" method="post">
 					<div class="form-group">
-						<input id="email" type="email" class="form-control" placeholder="Email: exemplo@exemplo.com">
-						<small id="emailHelp" class="form-text text-muted">Nós não iremos compartilhar este e-mail com outros.</small>
+						<input name="email" id="email" type="email" class="form-control" placeholder="Email: exemplo@exemplo.com">
 					</div>
-					<button id="enviar" type="submit" class="btn btn-primary">Enviar</button>
+					<button name="enviar" id="enviar" type="submit" class="btn btn-primary">Enviar</button>
 				</form>
 			</div>
 
