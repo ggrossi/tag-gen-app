@@ -5,6 +5,7 @@ $(window).on('load',function(){
 		$('form').on('submit', function(e){
 			if (verificaCampos()) {
 				alert("Preencha os campos corretamente.");
+				e.preventDefault();
 			} else {
 				e.preventDefault();
 				$.ajax({
@@ -15,6 +16,7 @@ $(window).on('load',function(){
 						alert("ok");
 					}
 				});
+				$('#modalLead').modal('hide');
 			}
 		});
 	});
