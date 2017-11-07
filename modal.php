@@ -11,7 +11,7 @@
 			<div class="modal-body">
 				<form name="formLead" id="formLead" class="clearfix" method="post">
 					<div class="form-group">
-						<input name="email" id="email" type="email" class="form-control" placeholder="Email: exemplo@exemplo.com">
+						<input name="email" id="email" type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email: exemplo@exemplo.com">
 					</div>
 					<button name="enviar" id="enviar" type="submit" class="btn btn-primary">Enviar</button>
 				</form>
