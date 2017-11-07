@@ -10,7 +10,7 @@
 	$hs_context_json = json_encode($hs_context);
 
 	//Need to populate these variable with values from the form.
-	$str_post = "email=" . urlencode($_POST['email'])
+	$str_post = "&email=" . urlencode($_POST['email'])
 		. "&hs_context=" . urlencode($hs_context_json);
 
 	//replace the values in this URL with your portal ID and your form GUID
