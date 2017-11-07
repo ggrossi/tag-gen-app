@@ -36,6 +36,6 @@ $("#enviar").click(function() {
 		alert("Oops");
 	} else {
 		enviaDados();
-		$('#modalLead').modal('hide');
+		//$('#modalLead').modal('hide');
 	}
 });
