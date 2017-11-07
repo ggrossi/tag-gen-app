@@ -16,11 +16,21 @@ $(window).on('load',function(){
 	});
 });
 
-/*function validateField() {
-	var email = document.forms["formLead"]["email"].value;
-	if (email.length <= 5) {
-		return true;
+/*function enviaDados(){
+	$('form').click('submit', function (e) {
+		e.preventDefault();
+		$.ajax({
+			type: 'post',
+			url:  'api.php',
+			data: $('form').serialize(),
+		});
+	});
+}
+
+$("#enviar").click(function() {
+	if (verificaCampos()) {
+		alert("Preencha os campos vazios.");
 	} else {
-		return false;
+		enviaDados();
 	}
-}*/
+});*/

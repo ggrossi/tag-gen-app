@@ -9,7 +9,7 @@
 
 			<!-- modal content -->
 			<div class="modal-body">
-				<form id="formLead" class="clearfix">
+				<form id="formLead" class="clearfix" method="post">
 					<div class="form-group">
 						<input id="email" type="email" class="form-control" placeholder="Email: exemplo@exemplo.com">
 						<small id="emailHelp" class="form-text text-muted">Nós não iremos compartilhar este e-mail com outros.</small>
