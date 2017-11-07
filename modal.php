@@ -11,7 +11,7 @@
 			<div class="modal-body">
 				<form id="formLead" class="clearfix">
 					<div class="form-group">
-						<input id="email" type="email" class="form-control" placeholder="Email: exemplo@exemplo.com" value="pedro.dias@rockcontent.com">
+						<input id="email" type="email" class="form-control" placeholder="Email: exemplo@exemplo.com">
 						<small id="emailHelp" class="form-text text-muted">Nós não iremos compartilhar este e-mail com outros.</small>
 					</div>
 					<button id="enviar" type="submit" class="btn btn-primary">Enviar</button>
