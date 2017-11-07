@@ -32,10 +32,10 @@ function enviaDados() {
 }
 
 $("#enviar").click(function() {
-	if (verificaCampos()) {
-		alert("Oops");
-	} else {
+	//if (verificaCampos()) {
+		//alert("Oops");
+	//} else {
 		enviaDados();
 		//$('#modalLead').modal('hide');
-	}
+	//}
 });
