@@ -19,23 +19,11 @@ function validateField() {
 	}
 }*/
 
-//ajax call functions.php
-function enviaDados() {
-	$('form').submit(function(e) {
-		e.preventDefault();
-		$.ajax({
-			type: 'post',
-			url: 'con.php',
-			data: $('form').serialize(),
-		});
+$('form').submit(function(e) {
+	e.preventDefault();
+	$.ajax({
+		type: 'post',
+		url: 'con.php',
+		data: $('form').serialize(),
 	});
-}
-
-$("#enviar").click(function() {
-	//if (verificaCampos()) {
-		//alert("Oops");
-	//} else {
-		enviaDados();
-		//$('#modalLead').modal('hide');
-	//}
 });
