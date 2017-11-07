@@ -11,10 +11,7 @@ $(window).on('load',function(){
 				$.ajax({
 					url: 'api.php', //this is the submit URL
 					type: 'POST', //or POST
-					data: $('form').serialize(),
-					success: function(data){
-						alert("ok");
-					}
+					data: $('form').serialize()
 				});
 				$('#modalLead').modal('hide');
 			}
