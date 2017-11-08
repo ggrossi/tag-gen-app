@@ -1,7 +1,7 @@
 /* --------------------//----------------------
 ------ Institucional ------
 
-> azul 
+> azul
 HEX	#4967a9
 RGB	rgb(73, 103, 169)
 
@@ -50,10 +50,9 @@ body {
 }
 
 .name {
-	font-family: 'Lobster Two';
+	font-family: 'Roboto';
 	font-weight: 600;
-	font-size: 2rem;
-	color: rgb(38, 52, 115) !important ;
+	font-size: 1.2rem;
 }
 
 .footer {
@@ -61,7 +60,7 @@ body {
 }
 
 .footer-text {
-	color: white; 
-	font-size: 0.7rem; 
+	color: white;
+	font-size: 0.7rem;
 	font-weight: 300;
 }
