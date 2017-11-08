@@ -50,9 +50,15 @@ body {
 }
 
 .name {
-	font-family: 'Roboto';
 	font-weight: 600;
 	font-size: 1.2rem;
+}
+
+#user-input {
+	background-color: #f7f7f7;
+	border-radius: 5px;
+	margin: 20px;
+	padding: 5px;
 }
 
 .footer {
