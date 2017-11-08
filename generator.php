@@ -2,10 +2,10 @@
 	<div class="row text-center">
 
 		<div class="col-6">
-			aaa
+			aaaaa
 		</div>
 		<div class="col-6">
-			aaa
+			aaaaa
 		</div>
 
 	</div>
