@@ -1,7 +1,7 @@
 <head>
 	<meta charset="utf-8">
-	<title>Título do Gerador de Meta Tags</title>
-	<meta name="description" content="Descrição do Gerador de Meta Tags">
+	<title>Gerador de Meta Tags</title>
+	<meta name="description" content="Conheça a ferramenta gratuita e online que te ajudará na criação das meta tags do seu site. Preparar uma página otimizada para SEO agora ficou fácil! Pronta para buscadores como o Google e redes sociais como o Facebook!">
 	<meta name="robots" content="index, follow">
 	<meta name="author" content="Rock Content">
 
