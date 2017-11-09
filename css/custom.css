@@ -54,11 +54,15 @@ body {
 	font-size: 1.2rem;
 }
 
-#user-input {
+.content-box {
 	background-color: #f7f7f7;
 	border-radius: 5px;
 	margin: 20px;
 	padding: 5px;
+}
+
+#user-input, #user-data {
+	padding: 35px;
 }
 
 .footer {

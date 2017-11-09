@@ -1,8 +1,7 @@
-/* -- VALIDATE FORM AND SEND TO HUBSPOT --*/
 $(window).on('load',function(){
 	$('#modalLead').modal('show'); //show modal 
 
-	$(function(){
+	$(function(){ //validate and send data to hubspot
 		$('#formLead').on('submit', function(e){
 			if (verificaCampos()) {
 				alert("Preencha os campos corretamente.");
@@ -18,8 +17,26 @@ $(window).on('load',function(){
 			}
 		});
 	});
+
+	$('#nome-pag').keyup(function() { //js changes live
+		$('#nome-pag-user').html($(this).val());
+	});
+
+	$('#desc-pag').keyup(function() { //js changes live
+		$('#desc-pag-user').html($(this).val());
+	});
+
+	$("select#index-pag").change(function(){ //js select changes live
+		var thisvalue = $(this).find("option:selected").text();
+		$('#index-pag-user').html(thisvalue);
+	});
+
+	$('#autor-pag').keyup(function() { //js changes live
+		$('#autor-pag-user').html($(this).val());
+	});
 });
-function verificaCampos(){
+
+function verificaCampos(){ //check if email field is correctly filled
 
 	var email = document.forms["formLead"]["email"].value;
 
@@ -30,6 +47,3 @@ function verificaCampos(){
 	}
 
 }
-
-/* -- GENERATOR --*/
-
