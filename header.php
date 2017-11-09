@@ -1,9 +1,7 @@
 <head>
-
-	<!-- Meta Tags -->
 	<meta charset="utf-8">
-	<title>Título do Gerador de Meta Tags</title>
-	<meta name="description" content="Descrição do Gerador de Meta Tags">
+	<title>Gerador de Meta Tags</title>
+	<meta name="description" content="Conheça a ferramenta gratuita e online que te ajudará na criação das meta tags do seu site. Preparar uma página otimizada para SEO agora ficou fácil! Pronta para buscadores como o Google e redes sociais como o Facebook!">
 	<meta name="robots" content="index, follow">
 	<meta name="author" content="Rock Content">
 
@@ -20,7 +18,7 @@
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="product">
 	<meta name="twitter:site" content="@rockcontent">
-	<meta name="twitter:title" content="Titulo da ferramenta">
+	<meta name="twitter:title" content="Gerador de Meta Tags">
 	<meta name="twitter:description" content="descricao da ferramenta">
 	<meta name="twitter:image" content="url da imagem pro twitter">
 
@@ -46,5 +44,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 	<!-- Lato Font -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+
+	<!-- Material Design icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
