@@ -42,7 +42,25 @@ body,html {
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background: linear-gradient(to bottom right, #1BB7D0, #524595);
+	/* background: linear-gradient(to bottom right, #1BB7D0, #524595); */
+	background: #FFF;
+}
+
+a {
+	color: #1bb7d0;
+}
+a:hover {
+	color: #1592a6;
+	text-decoration: none;
+}
+
+.logo {
+	width: 30px !important;
+}
+
+.navbar-toggler {
+	border: none;
+	outline: none;
 }
 
 .fixed-top {
@@ -50,17 +68,16 @@ body {
 }
 
 .name {
-	font-family: 'Roboto';
 	font-weight: 600;
 	font-size: 1.2rem;
 }
 
 .footer {
-	background-color: black;
+	color: #444;
+	font-size: 0.7rem;
+	padding: 15px 0;
 }
 
-.footer-text {
-	color: white;
-	font-size: 0.7rem;
-	font-weight: 300;
+.footer a {
+	color: #777;
 }
