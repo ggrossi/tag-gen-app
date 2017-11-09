@@ -1,4 +1,4 @@
-<div class="col-6">
+<div class="col-4">
 	<div class="content-box">
 		<form id="user-input">
 
@@ -35,7 +35,7 @@
 	</div>
 </div>
 
-<div class="col-6">
+<div class="col-8">
 	<div id="user-data" class="content-box">
 		<div class="jumbotron">
 			<p class="display-4">Código</p>
