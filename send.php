@@ -20,7 +20,7 @@
 		. "&hs_context=" . urlencode($hs_context_json);
 
 	//replace the values in this URL with your portal ID and your form GUID
-	$endpoint = 'https://forms.hubspot.com/uploads/form/v2/355484/4e2a782b-3ac0-4907-86e8-cd29391385c2';
+	$endpoint = 'https://forms.hubspot.com/uploads/form/v2/355484/4e2a782b-3ac0-4907-86e8-cd29391385c2'; 
 
 	$ch = @curl_init();
 	@curl_setopt($ch, CURLOPT_POST, true);
