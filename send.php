@@ -5,19 +5,19 @@
 	$hs_context      = array(
 		'hutk' => $hubspotutk,
 		'ipAddress' => $ip_addr,
-		'pageUrl' => 'https://tag-generator.herokuapp.com/',
+		'pageUrl' => 'https://rockcontent.com/ferramentas/tag-gen-app/',
 		'pageName' => 'O Incrível Gerador de Meta Tags',
 	);
 	$hs_context_json = json_encode($hs_context);
 
 	//Need to populate these variable with values from the form.
-	$str_post = "&firstname=" . urlencode($_POST['nome'])
+	$str_post = "firstname=" . urlencode($_POST['firstname'])
 		. "&email=" . urlencode($_POST['email'])
 		. "&phone=" . urlencode($_POST['phone'])
 		. "&website=" . urlencode($_POST['website'])
-		. "&industry=" . urlencode($_POST['area_atuacao'])
-		. "&numemployees=" . urlencode($_POST['numero_funcionarios'])
-		. "&website_objective=" . urlencode($_POST['desafio_site'])
+		. "&industry=" . urlencode($_POST['industry'])
+		. "&numemployees=" . urlencode($_POST['numemployees'])
+		. "&website_objective=" . urlencode($_POST['website_objective'])
 		. "&hs_context=" . urlencode($hs_context_json);
 
 	//replace the values in this URL with your portal ID and your form GUID

@@ -1,4 +1,5 @@
 $(window).on('load',function(){
+
 	$('#modalLead').modal('show'); //show modal 
 
 	$(function(){ //validate and send data to hubspot
@@ -7,12 +8,12 @@ $(window).on('load',function(){
 				alert("Preencha os campos corretamente.");
 				e.preventDefault();
 			} else {
-				e.preventDefault();
 				$.ajax({
-					type: 'POST',
+					type: 'post',
 					url:  'send.php',
 					data: $('#formLead').serialize(),
 				});
+				e.preventDefault();
 				$('#modalLead').modal('hide');
 			}
 		});

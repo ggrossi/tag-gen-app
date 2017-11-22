@@ -40,6 +40,7 @@
 	<!-- Custom -->
 	<link rel="stylesheet" href="css/custom.css">
 	<script src="js/custom.js"></script>
+	<script src="https://raw.githubusercontent.com/carhartl/jquery-cookie/master/src/jquery.cookie.js"></script>
 
 	<!-- Roboto Font -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">

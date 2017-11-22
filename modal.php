@@ -1,4 +1,4 @@
-<div name="modalLead" id="modalLead" class="modal fade" data-backdrop="static" data-keyboard="false">
+<div name="modalLead" id="modalLead" class="modal fade modalLead" data-backdrop="static" data-keyboard="false">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 
@@ -11,12 +11,12 @@
 			<!-- modal content -->
 			<div class="modal-body">
 				
-					<p class="text-center">
+					<p class="text-center"> 
 						<img src="https://get.google.com/trips/img/graphic-benefit-2--balloon.png" alt="Ferramentas Rock Content" class="img-fluid" width="180px">
 					</p>
 					<div class="col form-group">
-						<label for="nome">Nome</label>
-						<input name="nome" id="nome" class="form-control" aria-describedby="emailHelp" placeholder="Fulano da Silva">
+						<label for="firstname">Nome</label>
+						<input name="firstname" id="firstname" class="form-control" aria-describedby="emailHelp" placeholder="Fulano da Silva">
 					</div>
 					<div class="col form-group">
 						<label for="email">E-mail</label>
@@ -32,8 +32,8 @@
 						<input name="website" id="website" class="form-control" placeholder="">
 					</div>
 					<div class="col form-group">
-						<label for="area_atuacao">Área de atuação da empresa</label>
-						<select name="area_atuacao" id="area_atuacao" class="form-control">
+						<label for="industry">Área de atuação da empresa</label>
+						<select name="industry" id="industry" class="form-control">
 					        <option select option:disabled style="display: none;">Selecione a opção</option>
 					        <option>Agência de Marketing/Publicidade</option>
 					        <option>Tecnologia</option>
@@ -57,8 +57,8 @@
 						</select>
 					</div>
 					<div class="col form-group">
-						<label for="numero_funcionarios">Número de funcionários</label>
-						<select name="numero_funcionarios" id="numero_funcionarios" class="form-control">
+						<label for="numemployees">Número de funcionários</label>
+						<select name="numemployees" id="numemployees" class="form-control">
 					        <option select option:disabled style="display: none;">Selecione a opção</option>
 					        <option>Individual</option>
 					        <option>2-5</option>
@@ -73,8 +73,8 @@
 						</select>
 					</div>
 					<div class="col form-group">
-						<label for="desafio_site">Qual o maior desafio do seu site?</label>
-						<select name="desafio_site" id="desafio_site" class="form-control">
+						<label for="website_objective">Qual o maior desafio do seu site?</label>
+						<select name="website_objective" id="website_objective" class="form-control">
 					        <option select option:disabled style="display: none;">Selecione a opção</option>
 					        <option>Atrair mais visitantes</option>
 					        <option>Engajar os visitantes</option>
