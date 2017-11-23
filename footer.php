@@ -14,11 +14,3 @@
 		</div>
 	</div>
 </footer>
-
-<!-- Tooltip -->
-
-<script>
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-});
-</script>

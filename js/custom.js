@@ -98,3 +98,7 @@ function verificaCampos(){ //check if email field is correctly filled
 	}
 
 }
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
