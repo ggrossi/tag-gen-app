@@ -1,4 +1,4 @@
-<section>
+<section> 
 	<div name="modalLead" id="modalLead" class="modal fade modalLead" data-backdrop="static" data-keyboard="false">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -11,9 +11,10 @@
 				<form name="formLead" id="formLead" class="clearfix" method="post">
 				<!-- modal content -->
 				<div class="modal-body">
-					
-						<p class="text-center"> 
-							<img src="https://get.google.com/trips/img/graphic-benefit-2--balloon.png" alt="Ferramentas Rock Content" class="img-fluid" width="180px">
+
+						<p class="text-center">
+							<!--<img src="https://get.google.com/trips/img/graphic-benefit-2--balloon.png" alt="Ferramentas Rock Content" class="img-fluid" width="180px">-->
+							<img src="img/login.png" alt="Ferramentas Rock Content" class="img-fluid" width="200px">
 						</p>
 						<div class="col form-group">
 							<label for="firstname">Nome</label>
@@ -83,7 +84,7 @@
 						        <option>Otimizar para gerar ainda mais vendas</option>
 							</select>
 						</div>
-					
+
 					</div>
 					<div class="modal-footer text-center">
 						<button name="enviar" id="enviar" type="submit" class="btn btn-primary mx-auto">Acessar</button>
