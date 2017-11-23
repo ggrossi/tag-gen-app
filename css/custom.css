@@ -44,6 +44,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	/* background: linear-gradient(to bottom right, #1BB7D0, #524595); */
 	background: #FFF;
+	overflow-x: hidden;
 }
 
 a {
@@ -52,6 +53,12 @@ a {
 a:hover {
 	color: #1592a6;
 	text-decoration: none;
+}
+
+.header {
+	background: #1bb7d0;
+	color: #FFF;
+	padding: 75px 0;
 }
 
 .logo {
@@ -73,10 +80,10 @@ a:hover {
 }
 
 .content-box {
-	background-color: #f7f7f7;
-	border-radius: 5px;
+	background-color: #eee;
+	/*border-radius: 5px;
 	margin: 20px;
-	padding: 5px;
+	padding: 5px;*/
 }
 
 #user-input, #user-data {
@@ -91,4 +98,60 @@ a:hover {
 
 .footer a {
 	color: #777;
+}
+
+label .material-icons {
+	color: #999;
+	font-size: 1rem;
+}
+label .material-icons:hover {
+	color: #545454;
+	font-size: 1rem;
+}
+
+.progress {
+	height: 0.5rem;
+	margin: 10px 0;
+}
+
+.google {
+	margin: 25px 0;
+	width: 600px;
+}
+.googleTitle {
+	color: #1a0dab;
+	font-size: 18px;
+	font-weight: 500;
+}
+.googleURL {
+	color: #006621;
+	font-size: 14px;
+}
+.googleDescription {
+	color: #545454;
+	font-size: 13px;
+}
+
+.og {
+	margin: 25px 0;
+	max-width: 527px;
+}
+.ogTitle {
+	color: #4b4f56;
+	font-family: Georgia, serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 22px;
+	padding-top: 12px;
+}
+.ogURL {
+	color: #4b4f56;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-top: 9px;
+}
+.ogDescription {
+	color: #4b4f56;
+	font-size: 13px;
+	padding-top: 5px;
 }
