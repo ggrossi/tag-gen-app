@@ -10,15 +10,14 @@
 					<a data-toggle="collapse" href="#title" aria-expanded="false" aria-controls="title"><i class="material-icons">help</i></a>
 				</label>
 				<div class="col-sm-9">
-					<input type="text" class="form-control" id="title-input" placeholder="">
-					<div class="progress">
-						<div class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-						<div class="progress-bar bg-danger" role="progressbar" style="width: 0%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+					<input type="text" class="form-control" id="title-input" placeholder="" maxlength="100">
+					<div id="total-title" class="progress">
+						<div id="progress-title" class="progress-bar bg-success" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
 
 					<div class="collapse" id="title">
 						<small id="titleHelp" class="form-text text-muted">
-							<p><strong>O title tag indica aos utilizadores e ao motor de busca qual o tópico de uma determinada página.</strong> O título de uma página deve ter uma média de 160 caracteres e deve falar do principal tema da página. É altamente indicado que seja inserido aqui a palavra-chave que você quer rankear.</p>
+							<p><strong>O title tag indica aos utilizadores e ao motor de busca qual o tópico de uma determinada página.</strong> O título de uma página deve ter uma média de 60 caracteres e deve falar do principal tema da página. É altamente indicado que seja inserido aqui a palavra-chave que você quer rankear.</p>
 							<p>Dicas do Google:</p>
 							<ul>
 								<li>Descreva com precisão o conteúdo da sua página (resuma muito bem o que está na sua página);</li>
@@ -38,10 +37,9 @@
 				</label>
 				<div class="col-sm-9">
 					<!--<input type="text" class="form-control" id="desc-input" placeholder="">-->
-					<textarea class="form-control" name="desc-input" id="desc-input" rows="3"></textarea>
+					<textarea class="form-control" name="desc-input" id="desc-input" rows="3" maxlength="160"></textarea>
 					<div class="progress">
-						<div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-						<div class="progress-bar bg-danger" role="progressbar" style="width: 40%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+						<div id="progress-description" class="progress-bar bg-success" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>
 					<div class="collapse" id="description">
 						<small id="titleHelp" class="form-text text-muted">
@@ -76,9 +74,9 @@
 			<div class="card google mx-auto">
 				<div class="card-body">
     			<h6 class="card-subtitle mb-2 text-muted">Exemplo de como sua página vai aparecer no Google</h6>
-					<div class="googleTitle">Marketing digital: entenda o que é o marketing online e como fazer</div>
-					<div class="googleURL">https://marketingdeconteudo.com/marketing-digital/</div>
-					<div class="googleDescription">Aprenda o que é marketing digital, explore o conceito, entenda como fazer e conheça os principais cursos neste guia completo sobre o Marketing.</div>
+					<div id="title-preview" class="googleTitle"></div>
+					<div id="url-preview" class="googleURL"></div>
+					<div id="desc-preview" class="googleDescription"></div>
 				</div>
 			</div>
 

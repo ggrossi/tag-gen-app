@@ -2,34 +2,60 @@ $(window).on('load',function(){
 
 	if (document.cookie.replace(/(?:(?:^|.*;\s*)doSomethingOnlyOnce\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
 		$('#modalLead').modal('show'); //show modal
-		document.cookie = "doSomethingOnlyOnce=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+
+		$(function(){ //validate and send data to hubspot
+			$('#formLead').on('submit', function(e){
+				if (verificaCampos()) {
+					alert("Preencha os campos corretamente.");
+					e.preventDefault();
+				} else {
+					$.ajax({
+						type: 'post',
+						url:  'send.php',
+						data: $('#formLead').serialize(),
+					});
+					e.preventDefault();
+					$('#modalLead').modal('hide');
+					document.cookie = "doSomethingOnlyOnce=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+				}
+			});
+		});
 	}
 
-	$(function(){ //validate and send data to hubspot
-		$('#formLead').on('submit', function(e){
-			if (verificaCampos()) {
-				alert("Preencha os campos corretamente.");
-				e.preventDefault();
-			} else {
-				$.ajax({
-					type: 'post',
-					url:  'send.php',
-					data: $('#formLead').serialize(),
-				});
-				e.preventDefault();
-				$('#modalLead').modal('hide');
-			}
-		});
-	});
+});
 
+function verificaCampos(){ //check if email field is correctly filled
+
+	var email = document.forms["formLead"]["email"].value;
+
+	if (email.length <= 5) {
+		return true;
+	} else {
+		return false;
+	}
+
+}
+
+// -- tooltip -- //
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+
+$(function() {
 	// -- meta tags -- //
+
+	$('#url-input').keyup(function() { //js changes live
+		$('#url-preview').html($(this).val());
+	});
 
 	$('#title-input').keyup(function() { //js changes live
 		$('#title-user').html($(this).val());
+		$('#title-preview').html($(this).val());
 	});
 
 	$('#desc-input').keyup(function() { //js changes live
 		$('#desc-user').html($(this).val());
+		$('#desc-preview').html($(this).val());
 	});
 
 	$("select#robots-input").change(function(){ //js select changes live
@@ -85,16 +111,52 @@ $(window).on('load',function(){
 		$('#ttcreator-user').html($(this).val());
 	});
 
+	// -- progress bar title -- // 
+	$("#title-input[maxlength]").each(function() {
+		var $this = $(this);
+		var maxLength = parseInt($this.attr('maxlength'));
+		$this.attr('maxlength', null);
+
+		var el = document.getElementById("progress-title");
+
+		$this.bind('keyup', function() {
+			var cc = $this.val().length;
+
+			el.style.width = (1.5872 * cc) + '%';
+
+			if (cc > 63) {
+				el.classList.remove("bg-success");
+				el.classList.add("bg-danger");
+			} else if (cc <= 63) {
+				el.classList.add("bg-success");
+				el.classList.remove("bg-danger");
+			}
+		});
+	});
+
+	// -- progress bar description -- //
+	$("#desc-input[maxlength]").each(function() {
+		var $this = $(this);
+		var maxLength = parseInt($this.attr('maxlength'));
+		$this.attr('maxlength', null);
+
+		var el = document.getElementById("progress-description");
+
+		$this.bind('keyup', function() {
+			var cc = $this.val().length;
+
+			
+
+			el.style.width = (0.625 * cc) + '%';
+
+			if (cc > 160) {
+				el.classList.remove("bg-success");
+				el.classList.add("bg-danger");
+			} else if (cc <= 160) {
+				el.classList.add("bg-success");
+				el.classList.remove("bg-danger");
+			}
+		});
+	});
+
 });
-
-function verificaCampos(){ //check if email field is correctly filled
-
-	var email = document.forms["formLead"]["email"].value;
-
-	if (email.length <= 5) {
-		return true;
-	} else {
-		return false;
-	}
-
-}
