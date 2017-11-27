@@ -145,8 +145,6 @@ $(function() {
 		$this.bind('keyup', function() {
 			var cc = $this.val().length;
 
-			
-
 			el.style.width = (0.625 * cc) + '%';
 
 			if (cc > 160) {
