@@ -119,6 +119,62 @@ $(function() {
 		$('#ttcreator-user').html($(this).val());
 	});
 
+	// -- Analytics, Bootstrap e Google TagManager -- //
+	$("#tagmng-code1").hide();
+	$("#tagmng-code2").hide();
+	$("#tagmng-input").each(function() {
+		var $this = $(this);
+		var el = document.getElementById("tagmng-code1");
+		var el2 = document.getElementById("tagmng-code2");
+
+		$this.bind('keyup', function() {
+			var cc = $this.val().length;
+
+			if (cc > 0) {
+				el.style.display = "block";
+				el2.style.display = "block";
+				$('#tagmng-user1').html($('#tagmng-input').val());
+				$('#tagmng-user2').html($('#tagmng-input').val());
+
+			} else {
+				el.style.display = "none";
+				el2.style.display = "none";
+			}
+		});
+	});
+
+	$("#analytics-code").hide();
+	$("#analytics-input").each(function() {
+		var $this = $(this);
+		var el = document.getElementById("analytics-code");
+
+		$this.bind('keyup', function() {
+			var cc = $this.val().length;
+
+			if (cc > 0) {
+				el.style.display = "block";
+				$('#analytics-user1').html($('#analytics-input').val());
+				$('#analytics-user2').html($('#analytics-input').val());
+
+			} else {
+				el.style.display = "none";
+			}
+		});
+	});
+
+	$("#bootstrap-code").hide();
+	$("select#bootstrap-input").change(function(){ //js select changes live
+		var thisvalue = $(this).find("option:selected").val();
+		var el = document.getElementById("bootstrap-code");
+
+		if (thisvalue == 1) {
+			el.style.display = "block";
+		} else {
+			el.style.display = "none";
+		}
+
+	});
+
 	// -- progress bar title -- // 
 	$("#title-input[maxlength]").each(function() {
 		var $this = $(this);

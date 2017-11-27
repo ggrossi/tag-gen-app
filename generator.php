@@ -428,21 +428,25 @@
 			<div class="form-group row">
 				<label for="" class="col-sm-3 col-form-label">Analytics</label>
 				<div class="col-sm-9">
-					<input type="text" class="form-control" id="" placeholder="Código do Google Analytics">
+					<input type="text" class="form-control" id="analytics-input" placeholder="Código do Google Analytics">
 				</div>
 			</div>
 
 			<div class="form-group row">
-				<label for="" class="col-sm-3 col-form-label">Bootstrap</label>
+				<label for="bootstrap-input" class="col-sm-3 col-form-label">Bootstrap</label>
 				<div class="col-sm-9">
-					<input type="text" class="form-control" id="" placeholder="">
+					<select class="form-control" id="bootstrap-input">
+						<option selected option:disabled style="display: none;">Incluir?</option>
+						<option value="1">Sim</option>
+						<option value="0">Não</option>
+					</select>
 				</div>
 			</div>
 
 			<div class="form-group row">
 				<label for="" class="col-sm-3 col-form-label">Tag Manager</label>
 				<div class="col-sm-9">
-					<input type="text" class="form-control" id="" placeholder="Código do Google Tag Manager">
+					<input type="text" class="form-control" id="tagmng-input" placeholder="Código do Google Tag Manager">
 				</div>
 			</div>
 
