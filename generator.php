@@ -112,7 +112,7 @@
 				<!--<input type="text" class="form-control" id="lang-input" placeholder="">-->
 				<div class="col-sm-9">
 					<select class="form-control" id="lang-input">
-						<option selected>Escolha a linguagem</option>
+						<option selected selected option:disabled  style="display: none;">Escolha o idioma</option>
 						<option value="af">Afrikaans</option>
 						<option value="af-ZA">Afrikaans (South Africa)</option>
 						<option value="ar">Arabic</option>
@@ -356,10 +356,10 @@
 			<div class="card og mx-auto">
 				<div class="card-body">
     			<h6 class="card-subtitle mb-2 text-muted">Exemplo de como sua página vai aparecer no Facebook</h6>
-					<div><img src="https://marketingdeconteudo.com/wp-content/uploads/2014/12/marketing-digital-1.png" alt="" class="img-fluid"></div>
-					<div class="ogTitle">Marketing digital: entenda o que é o marketing online e como fazer</div>
-					<div class="ogDescription">Aprenda o que é marketing digital, explore o conceito, entenda como fazer e conheça os principais cursos neste guia completo sobre o Marketing.</div>
-					<div class="ogURL">marketingdeconteudo.com</div>
+					<div><img id="ogimgUserPreview" class="img-fluid"></div>
+					<div id="ogtitle-user-preview" class="ogTitle"></div>
+					<div id="ogdesc-user-preview" class="ogDescription"></div>
+					<div id="ogurl-user-preview" class="ogURL"></div>
 				</div>
 			</div>
 
@@ -387,7 +387,7 @@
 			<div class="form-group row">
 				<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">URL da imagem</label>
 				<div class="col-sm-9">
-					<input type="text" class="form-control" id="ogimage-input" placeholder="">
+					<input type="text" class="form-control" id="ogimageInput" placeholder="">
 				</div>
 			</div>
 

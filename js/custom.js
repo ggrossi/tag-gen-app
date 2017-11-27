@@ -71,30 +71,38 @@ $(function() {
 		$('#key-user').html($(this).val());
 	});
 
-	$('#lang-input').keyup(function() { //js changes live
-		$('#lang-user').html($(this).val());
+	$("select#lang-input").change(function(){ //js select changes live
+		var thisvalue = $(this).find("option:selected").val();
+		$('#lang-user').html(thisvalue);
 	});
 
 	// -- open graph -- //
 
 	$('#ogtype-input').keyup(function() { //js changes live
 		$('#ogtype-user').html($(this).val());
+		$('#ogtype-user-preview').html($(this).val());
 	});
 
 	$('#ogtitle-input').keyup(function() { //js changes live
 		$('#ogtitle-user').html($(this).val());
+		$('#ogtitle-user-preview').html($(this).val());
+
 	});
 
 	$('#ogurl-input').keyup(function() { //js changes live
 		$('#ogurl-user').html($(this).val());
+		$('#ogurl-user-preview').html($(this).val());
 	});
 
-	$('#ogimage-input').keyup(function() { //js changes live
+	$('#ogimageInput').keyup(function() { //js changes live
+		var selecionada = $('#ogimageInput').val();
+    	$('#ogimgUserPreview').attr("src", selecionada);
 		$('#ogimage-user').html($(this).val());
 	});
 
 	$('#ogauthor-input').keyup(function() { //js changes live
 		$('#ogauthor-user').html($(this).val());
+		$('#ogauthor-user-preview ').html($(this).val());
 	});
 
 	// -- twitter cards -- //
