@@ -84,7 +84,7 @@
 				<label for="robots-input" class="col-sm-3 col-form-label">Robots</label>
 				<div class="col-sm-9">
 					<select class="form-control" id="robots-input">
-						<option selected>Escolha uma opção</option>
+						<option selected option:disabled  style="display: none;">Escolha uma opção</option>
 						<option>all</option>
 						<option>none</option>
 						<option>index</option>
