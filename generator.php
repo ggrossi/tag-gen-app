@@ -1,4 +1,4 @@
-<div class="col-8">
+<div class="col-12 col-sm-8">
 	<div class="content-box">
 		<form id="user-input">
 
@@ -72,15 +72,14 @@
 					</div>
 				</div>
 			</div>
-  <div class="col-sm-9 offset-sm-3">
-			<div class="card google">
+
+			<div class="card google mx-auto">
 				<div class="card-body">
     			<h6 class="card-subtitle mb-2 text-muted">Exemplo de como sua página vai aparecer no Google</h6>
 					<div id="title-preview" class="googleTitle"></div>
 					<div id="url-preview" class="googleURL"></div>
 					<div id="desc-preview" class="googleDescription"></div>
-          </div>
-				</div>
+        </div>
 			</div>
 
 			<div class="form-group row">
@@ -353,16 +352,6 @@
 
 			<h3>Open Graph</h3>
 
-			<div class="card og mx-auto">
-				<div class="card-body">
-    			<h6 class="card-subtitle mb-2 text-muted">Exemplo de como sua página vai aparecer no Facebook</h6>
-					<div><img id="ogimgUserPreview" class="img-fluid"></div>
-					<div id="ogtitle-user-preview" class="ogTitle"></div>
-					<div id="ogdesc-user-preview" class="ogDescription"></div>
-					<div id="ogurl-user-preview" class="ogURL"></div>
-				</div>
-			</div>
-
 			<div class="form-group row">
 				<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">Tipo</label>
 				<div class="col-sm-9">
@@ -395,6 +384,16 @@
 				<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">Autor</label>
 				<div class="col-sm-9">
 					<input type="text" class="form-control" id="ogauthor-input" placeholder="">
+				</div>
+			</div>
+
+			<div class="card og mx-auto">
+				<div class="card-body">
+    			<h6 class="card-subtitle mb-2 text-muted">Exemplo de como sua página vai aparecer no Facebook</h6>
+					<div><img id="ogimgUserPreview" class="img-fluid"></div>
+					<div id="ogtitle-user-preview" class="ogTitle"></div>
+					<div id="ogdesc-user-preview" class="ogDescription"></div>
+					<div id="ogurl-user-preview" class="ogURL"></div>
 				</div>
 			</div>
 
@@ -454,8 +453,11 @@
 	</div>
 </div>
 
-<div class="col-4">
-	<div id="user-data" class="content-box">
+<div class="col-12 col-sm-4">
+	<div id="user-data" class="content-box bg-dark text-white">
 		<pre><code class="language-html" data-lang="html"><?php include 'code.php'; ?></code></pre>
+		<div class="text-right">
+			<a href="#" class="btn btn-outline-light btn-sm">Copiar</a>
+		</div>
 	</div>
 </div>

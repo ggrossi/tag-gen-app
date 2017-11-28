@@ -55,6 +55,10 @@ a:hover {
 	text-decoration: none;
 }
 
+pre {
+	color: white;
+}
+
 .header {
 	background: #1bb7d0;
 	color: #FFF;
