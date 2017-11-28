@@ -1,20 +1,18 @@
-<section> 
+<section>
 	<div name="modalLead" id="modalLead" class="modal fade modalLead" data-backdrop="static" data-keyboard="false">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 
 				<!-- modal title -->
-				<div class="modal-header">
+				<div class="modal-header text-center">
 					<h5 class="modal-title mx-auto">Deixe seus dados e acesse a ferramenta</h5>
 				</div>
 
 				<form name="formLead" id="formLead" class="clearfix" method="post">
 				<!-- modal content -->
 				<div class="modal-body">
-
 						<p class="text-center">
-							<!--<img src="https://get.google.com/trips/img/graphic-benefit-2--balloon.png" alt="Ferramentas Rock Content" class="img-fluid" width="180px">-->
-							<img src="img/login.png" alt="Ferramentas Rock Content" class="img-fluid" width="200px">
+							<img src="img/login.png" alt="Ferramentas Rock Content" class=" mx-auto" width="210px">
 						</p>
 						<div class="col form-group">
 							<label for="firstname">Nome</label>
