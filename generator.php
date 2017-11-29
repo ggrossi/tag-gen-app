@@ -353,13 +353,6 @@
 			<h3>Open Graph</h3>
 
 			<div class="form-group row">
-				<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">Tipo</label>
-				<div class="col-sm-9">
-					<input type="text" class="form-control" id="ogtype-input" placeholder="">
-				</div>
-			</div>
-
-			<div class="form-group row">
 				<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">Título</label>
 				<div class="col-sm-9">
 					<input type="text" class="form-control" id="ogtitle-input" placeholder="">
@@ -432,20 +425,21 @@
 			</div>
 
 			<div class="form-group row">
-				<label for="bootstrap-input" class="col-sm-3 col-form-label">Bootstrap</label>
+				<label for="" class="col-sm-3 col-form-label">Tag Manager</label>
 				<div class="col-sm-9">
-					<select class="form-control" id="bootstrap-input">
-						<option selected option:disabled style="display: none;">Incluir?</option>
-						<option value="1">Sim</option>
-						<option value="0">Não</option>
-					</select>
+					<input type="text" class="form-control" id="tagmng-input" placeholder="Código do Google Tag Manager">
 				</div>
 			</div>
 
 			<div class="form-group row">
-				<label for="" class="col-sm-3 col-form-label">Tag Manager</label>
+				<label for="bootstrap-input" class="col-sm-3 col-form-label">Bootstrap</label>
 				<div class="col-sm-9">
-					<input type="text" class="form-control" id="tagmng-input" placeholder="Código do Google Tag Manager">
+					<div class="form-checkbox">
+						<label class="form-check-label">
+							<input class="form-check-input" type="checkbox" id="bootstrap-check">
+							Incluir
+						</label>
+					</div>
 				</div>
 			</div>
 
@@ -455,9 +449,9 @@
 
 <div class="col-12 col-sm-4">
 	<div id="user-data" class="content-box bg-dark text-white">
-		<pre><code class="language-html" data-lang="html"><?php include 'code.php'; ?></code></pre>
+		<pre><code id="code-copy" class="language-html" data-lang="html"><?php include 'code.php'; ?></code></pre>
 		<div class="text-right">
-			<a href="#" class="btn btn-outline-light btn-sm">Copiar</a>
+			<a href="#" class="btn btn-outline-light btn-sm" id="copy-code-btn">Copiar</a>
 		</div>
 	</div>
 </div>
