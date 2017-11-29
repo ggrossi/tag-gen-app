@@ -73,13 +73,13 @@
 				</div>
 			</div>
 
-			<div class="card google mx-auto">
+			<div id="google" class="card google mx-auto">
 				<div class="card-body">
     			<h6 class="card-subtitle mb-2 text-muted">Exemplo de como sua página vai aparecer no Google</h6>
 					<div id="title-preview" class="googleTitle"></div>
 					<div id="url-preview" class="googleURL"></div>
 					<div id="desc-preview" class="googleDescription"></div>
-        </div>
+        	</div>
 			</div>
 
 			<div class="form-group row">
@@ -353,13 +353,6 @@
 			<h3>Open Graph</h3>
 
 			<div class="form-group row">
-				<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">Tipo</label>
-				<div class="col-sm-9">
-					<input type="text" class="form-control" id="ogtype-input" placeholder="">
-				</div>
-			</div>
-
-			<div class="form-group row">
 				<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">Título</label>
 				<div class="col-sm-9">
 					<input type="text" class="form-control" id="ogtitle-input" placeholder="">
@@ -387,7 +380,7 @@
 				</div>
 			</div>
 
-			<div class="card og mx-auto">
+			<div id="og" class="card og mx-auto">
 				<div class="card-body">
     			<h6 class="card-subtitle mb-2 text-muted">Exemplo de como sua página vai aparecer no Facebook</h6>
 					<div><img id="ogimgUserPreview" class="img-fluid"></div>
@@ -399,13 +392,6 @@
 
 			<hr class="my-4">
 			<h3>Twitter Card</h3>
-
-			<div class="form-group row">
-				<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">Tipo</label>
-				<div class="col-sm-9">
-					<input type="text" class="form-control" id="ttcard-input" placeholder="">
-				</div>
-			</div>
 
 			<div class="form-group row">
 				<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">Username</label>
@@ -425,27 +411,28 @@
 			<h3>Outros</h3>
 
 			<div class="form-group row">
-				<label for="" class="col-sm-3 col-form-label">Analytics</label>
+				<label for="" class="col-sm-3 col-form-label">ID Analytics</label>
 				<div class="col-sm-9">
-					<input type="text" class="form-control" id="analytics-input" placeholder="Código do Google Analytics">
+					<input type="text" class="form-control" id="analytics-input" placeholder="Exemplo: UA-12345678-90" maxlength="20">
+				</div>
+			</div>
+
+			<div class="form-group row">
+				<label for="" class="col-sm-3 col-form-label">ID Tag Manager</label>
+				<div class="col-sm-9">
+					<input type="text" class="form-control" id="tagmng-input" placeholder="Exemplo: GTM-ABCDE1" maxlength="20">
 				</div>
 			</div>
 
 			<div class="form-group row">
 				<label for="bootstrap-input" class="col-sm-3 col-form-label">Bootstrap</label>
 				<div class="col-sm-9">
-					<select class="form-control" id="bootstrap-input">
-						<option selected option:disabled style="display: none;">Incluir?</option>
-						<option value="1">Sim</option>
-						<option value="0">Não</option>
-					</select>
-				</div>
-			</div>
-
-			<div class="form-group row">
-				<label for="" class="col-sm-3 col-form-label">Tag Manager</label>
-				<div class="col-sm-9">
-					<input type="text" class="form-control" id="tagmng-input" placeholder="Código do Google Tag Manager">
+					<div class="form-checkbox">
+						<label class="form-check-label">
+							<input class="form-check-input" type="checkbox" id="bootstrap-check">
+							Incluir
+						</label>
+					</div>
 				</div>
 			</div>
 
@@ -455,9 +442,9 @@
 
 <div class="col-12 col-sm-4">
 	<div id="user-data" class="content-box bg-dark text-white">
-		<pre><code class="language-html" data-lang="html"><?php include 'code.php'; ?></code></pre>
+		<pre><code id="code-copy" class="language-html" data-lang="html"><?php include 'code.php'; ?></code></pre>
 		<div class="text-right">
-			<a href="#" class="btn btn-outline-light btn-sm">Copiar</a>
+			<a href="#" class="btn btn-outline-light btn-sm" id="copy-code-btn">Copiar</a>
 		</div>
 	</div>
 </div>
