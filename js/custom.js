@@ -1,10 +1,11 @@
 $(window).on('load',function(){
 
-	if (document.cookie.replace(/(?:(?:^|.*;\s*)doSomethingOnlyOnce\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
-		$('#modalLead').modal('show'); //show modal
 
-		$(function(){ //validate and send data to hubspot
-			$('#formLead').on('submit', function(e){
+	if (document.cookie.replace(/(?:(?:^|.*;\s*)doSomethingOnlyOnce\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") { //se nao reconhece cookie existente no navegador
+		$('#modalLead').modal('show'); //... entao mostra o modal
+
+		$(function(){
+			$('#formLead').on('submit', function(e){ //submit to hubspot
 				if (verificaCampos()) {
 					alert("Preencha os campos corretamente.");
 					e.preventDefault();
@@ -15,11 +16,11 @@ $(window).on('load',function(){
 						data: $('#formLead').serialize(),
 					});
 					e.preventDefault();
-					$('#modalLead').modal('hide');
+					$('#modalLead').modal('hide'); //esconde o modal após seu preenchimento
 					date = new Date();
         			date.setTime(date.getTime()+(30*24*60*60*1000));
-        			expires = "; expires="+date.toGMTString();
-					document.cookie = "doSomethingOnlyOnce=true; expires=" + expires;
+        			expires = "; expires="+date.toGMTString(); //define prazo de expiração do cookie
+					document.cookie = "doSomethingOnlyOnce=true; expires=" + expires; //define um cookie para o navegador
 				}
 			});
 		});
@@ -27,7 +28,8 @@ $(window).on('load',function(){
 
 });
 
-function verificaCampos(){ //check if email field is correctly filled
+//check if email field is correctly filled
+function verificaCampos(){ 
 
 	var email = document.forms["formLead"]["email"].value;
 
@@ -46,78 +48,77 @@ $(document).ready(function(){
 
 $(function() {
 	// -- meta tags -- //
-
-	$('#url-input').keyup(function() { //js changes live
+	$('#url-input').keyup(function() {
 		$('#url-preview').html($(this).val());
 	});
 
-	$('#title-input').keyup(function() { //js changes live
+	$('#title-input').keyup(function() {
 		$('#title-user').html($(this).val());
 		$('#title-preview').html($(this).val());
 	});
 
-	$('#desc-input').keyup(function() { //js changes live
+	$('#desc-input').keyup(function() {
 		$('#desc-user').html($(this).val());
 		$('#desc-preview').html($(this).val());
 	});
 
-	$("select#robots-input").change(function(){ //js select changes live
+	$("select#robots-input").change(function(){
 		var thisvalue = $(this).find("option:selected").text();
 		$('#robots-user').html(thisvalue);
 	});
 
-	$('#author-input').keyup(function() { //js changes live
+	$('#author-input').keyup(function() {
 		$('#author-user').html($(this).val());
 	});
 
-	$('#key-input').keyup(function() { //js changes live
+	$('#key-input').keyup(function() {
 		$('#key-user').html($(this).val());
 	});
 
-	$("select#lang-input").change(function(){ //js select changes live
+	$("select#lang-input").change(function(){
 		var thisvalue = $(this).find("option:selected").val();
 		$('#lang-user').html(thisvalue);
 	});
 
 	// -- open graph -- //
-
-	$('#ogtitle-input').keyup(function() { //js changes live
+	$('#ogtitle-input').keyup(function() {
 		$('#ogtitle-user').html($(this).val());
 		$('#ogtitle-user-preview').html($(this).val());
 
 	});
 
-	$('#ogurl-input').keyup(function() { //js changes live
+	$('#ogurl-input').keyup(function() {
 		$('#ogurl-user').html($(this).val());
 		$('#ogurl-user-preview').html($(this).val());
 	});
 
-	$('#ogimageInput').keyup(function() { //js changes live
+	$('#ogimageInput').keyup(function() {
 		var selecionada = $('#ogimageInput').val();
     	$('#ogimgUserPreview').attr("src", selecionada);
 		$('#ogimage-user').html($(this).val());
 	});
 
-	$('#ogauthor-input').keyup(function() { //js changes live
+	$('#ogauthor-input').keyup(function() {
 		$('#ogauthor-user').html($(this).val());
 		$('#ogauthor-user-preview ').html($(this).val());
 	});
 
-	// -- twitter cards -- //
-
-	$('#ttcard-input').keyup(function() { //js changes live
+	// -- twitter card -- //
+	$('#ttcard-input').keyup(function() {
 		$('#ttcard-user').html($(this).val());
 	});
 
-	$('#ttsite-input').keyup(function() { //js changes live
+	$('#ttsite-input').keyup(function() { 
 		$('#ttsite-user').html($(this).val());
 	});
 
-	$('#ttcreator-input').keyup(function() { //js changes live
+	$('#ttcreator-input').keyup(function() { 
 		$('#ttcreator-user').html($(this).val());
 	});
 
 	// -- Analytics, Bootstrap e Google TagManager -- //
+
+	// -- include tag manager code -- //
 	$("#tagmng-code1").hide();
 	$("#tagmng-code2").hide();
 	$("#tagmng-input").each(function() {
@@ -141,6 +142,7 @@ $(function() {
 		});
 	});
 
+	// -- include analytics code -- //
 	$("#analytics-code").hide();
 	$("#analytics-input").each(function() {
 		var $this = $(this);
@@ -160,6 +162,7 @@ $(function() {
 		});
 	});
 
+	// -- include bootstrap code -- //
 	$("#bootstrap-code").hide();
 	$('#bootstrap-check').change(function(){
 		var check = document.getElementById("bootstrap-check").checked;
@@ -216,6 +219,7 @@ $(function() {
 		});
 	});
 
+	// -- copy btn -- //
 	$('#copy-code-btn').on('click', function(e){
 		let textarea = document.createElement('textarea');
 		textarea.id = 't';
