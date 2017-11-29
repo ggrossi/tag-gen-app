@@ -73,13 +73,13 @@
 				</div>
 			</div>
 
-			<div class="card google mx-auto">
+			<div id="google" class="card google mx-auto">
 				<div class="card-body">
     			<h6 class="card-subtitle mb-2 text-muted">Exemplo de como sua página vai aparecer no Google</h6>
 					<div id="title-preview" class="googleTitle"></div>
 					<div id="url-preview" class="googleURL"></div>
 					<div id="desc-preview" class="googleDescription"></div>
-        </div>
+        	</div>
 			</div>
 
 			<div class="form-group row">
@@ -380,7 +380,7 @@
 				</div>
 			</div>
 
-			<div class="card og mx-auto">
+			<div id="og" class="card og mx-auto">
 				<div class="card-body">
     			<h6 class="card-subtitle mb-2 text-muted">Exemplo de como sua página vai aparecer no Facebook</h6>
 					<div><img id="ogimgUserPreview" class="img-fluid"></div>
@@ -392,13 +392,6 @@
 
 			<hr class="my-4">
 			<h3>Twitter Card</h3>
-
-			<div class="form-group row">
-				<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">Tipo</label>
-				<div class="col-sm-9">
-					<input type="text" class="form-control" id="ttcard-input" placeholder="">
-				</div>
-			</div>
 
 			<div class="form-group row">
 				<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">Username</label>
@@ -418,16 +411,16 @@
 			<h3>Outros</h3>
 
 			<div class="form-group row">
-				<label for="" class="col-sm-3 col-form-label">Analytics</label>
+				<label for="" class="col-sm-3 col-form-label">ID Analytics</label>
 				<div class="col-sm-9">
-					<input type="text" class="form-control" id="analytics-input" placeholder="Código do Google Analytics">
+					<input type="text" class="form-control" id="analytics-input" placeholder="Exemplo: UA-12345678-90" maxlength="20">
 				</div>
 			</div>
 
 			<div class="form-group row">
-				<label for="" class="col-sm-3 col-form-label">Tag Manager</label>
+				<label for="" class="col-sm-3 col-form-label">ID Tag Manager</label>
 				<div class="col-sm-9">
-					<input type="text" class="form-control" id="tagmng-input" placeholder="Código do Google Tag Manager">
+					<input type="text" class="form-control" id="tagmng-input" placeholder="Exemplo: GTM-ABCDE1" maxlength="20">
 				</div>
 			</div>
 

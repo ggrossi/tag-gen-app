@@ -16,7 +16,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta property="og:image" content="<span id="ogimage-user"></span>"&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta property="article:author" content="<span id="ogauthor-user"></span>"&gt;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="twitter:card" content="<span id="ttcard-user"></span>"&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="twitter:card" content="summary"&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="twitter:site" content="@<span id="ttsite-user"></span>"&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="twitter:creator" content="@<span id="ttcreator-user"></span>"&gt;<div id="tagmng-code1">
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Tag Manager --&gt;

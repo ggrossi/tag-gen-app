@@ -48,6 +48,23 @@ $(document).ready(function(){
 
 $(function() {
 	// -- meta tags -- //
+
+	$("#google").hide(); //preview da SERP inicialmente invisível
+	$("#title-input").each(function() { //se o input de title é preenchido, preview da SERP aparece
+		var $this = $(this);
+		var el = document.getElementById("google");
+
+		$this.bind('keyup', function() {
+			var cc = $this.val().length;
+
+			if (cc > 0) {
+				el.style.display = "block";
+			} else {
+				el.style.display = "none";
+			}
+		});
+	});
+
 	$('#url-input').keyup(function() {
 		$('#url-preview').html($(this).val());
 	});
@@ -81,6 +98,22 @@ $(function() {
 	});
 
 	// -- open graph -- //
+	$("#og").hide(); //preview da og inicialmente invisível
+	$("#ogtitle-input").each(function() { //se o input de og title é preenchido, preview da og aparece
+		var $this = $(this);
+		var el = document.getElementById("og");
+
+		$this.bind('keyup', function() {
+			var cc = $this.val().length;
+
+			if (cc > 0) {
+				el.style.display = "block";
+			} else {
+				el.style.display = "none";
+			}
+		});
+	});
+
 	$('#ogtitle-input').keyup(function() {
 		$('#ogtitle-user').html($(this).val());
 		$('#ogtitle-user-preview').html($(this).val());
