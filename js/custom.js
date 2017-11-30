@@ -12,7 +12,7 @@ $(window).on('load',function(){
 				} else {
 					$.ajax({
 						type: 'post',
-						url:  'send.php',
+						url:  'api.php',
 						data: $('#formLead').serialize(),
 					});
 					e.preventDefault();
