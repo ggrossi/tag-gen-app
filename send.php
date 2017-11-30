@@ -18,6 +18,7 @@
 		. "&industry=" . urlencode($_POST['industry'])
 		. "&numemployees=" . urlencode($_POST['numemployees'])
 		. "&website_objective=" . urlencode($_POST['website_objective'])
+		. "&lifecyclestage=lead"
 		. "&hs_context=" . urlencode($hs_context_json);
 
 	//replace the values in this URL with your portal ID and your form GUID
