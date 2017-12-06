@@ -4,28 +4,14 @@
       <div class="container-fluid">
         <div class="row align-items-center">
 
-          <div class="col-12 col-sm-4">
+          <div class="col-12 col-sm-5 col-md-5">
             <h5 class="text-white">Ferramentas Rock Content</h5>
             <p>
               <span class="text-muted">Conheça <strong>outras ferramentas</strong> na nossa <a href="http://rockcontent.com/ferramentas-de-marketing" target="_blank">Central de Aplicativos <i class="material-icons" style="font-size: 0.9rem;">open_in_new</i></a> e aprimore suas ações de marketing agora mesmo. Confira também os materiais relacionados com essa ferramenta logo ao lado.</span>
             </p>
           </div>
 
-          <div class="col-12 col-sm">
-            <p>
-              &nbsp;
-            </p>
-          </div>
-
-          <div class="col-12 col-sm">
-            <p>
-              <a href="#" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">build</i> Gerador de Assuntos de Email</a><br>
-              <a href="#" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">build</i> Calculadora de Conversões</a><br>
-              <a href="https://www.maquinadetitulos.com.br" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">build</i> Máquina de Títulos</a>
-            </p>
-          </div>
-
-          <div class="col-12 col-sm">
+          <div class="col-12 col-sm-3 offset-sm-1 col-md-3 offset-md-1">
             <p>
               <a href="https://marketingdeconteudo.com/meta-tags-para-redes-sociais/" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">short_text</i> Meta Tags para Redes Sociais</a><br>
               <a href="https://marketingdeconteudo.com/meta-description/" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">short_text</i> Tudo sobre Meta Description</a><br>
@@ -33,7 +19,7 @@
             </p>
           </div>
 
-          <div class="col-12 col-sm">
+          <div class="col-12 col-sm-3 col-md-3">
             <p>
               <a href="https://materiais.rockcontent.com/guia-seo-rockcontent" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">library_books</i> SEO 2.0: O Guia Definitivo</a><br>
               <a href="http://materiais.rockcontent.com/guia-definitivo-blog-corporativo" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">library_books</i> Guia do Blog Corporativo</a><br>

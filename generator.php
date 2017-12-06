@@ -4,10 +4,12 @@
 
 			<h3>Meta Tags</h3>
 
+			<p>Meta tags são lindas</p>
+
 			<div class="form-group row">
 				<label for="title-input" class="col-sm-3 col-form-label">
 					Título da página
-					<a data-toggle="collapse" href="#title" aria-expanded="false" aria-controls="title"><i class="material-icons">help</i></a>
+					<a data-toggle="collapse" href="#title" aria-expanded="false" aria-controls="title"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="O que escrever aqui?">help</i></a>
 				</label>
 				<div class="col-sm-9">
 					<input type="text" class="form-control" id="title-input" placeholder="" maxlength="100">
@@ -352,6 +354,8 @@
 
 			<h3>Open Graph</h3>
 
+			<h4>Facebook</h4>
+
 			<div class="form-group row">
 				<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">Título</label>
 				<div class="col-sm-9">
@@ -390,8 +394,7 @@
 				</div>
 			</div>
 
-			<hr class="my-4">
-			<h3>Twitter Card</h3>
+			<h4>Twitter</h4>
 
 			<div class="form-group row">
 				<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">Username</label>
@@ -429,8 +432,7 @@
 				<div class="col-sm-9">
 					<div class="form-checkbox">
 						<label class="form-check-label">
-							<input class="form-check-input" type="checkbox" id="bootstrap-check">
-							Incluir
+							<input class="form-check-input" type="checkbox" id="bootstrap-check"> Incluir (versão 4)
 						</label>
 					</div>
 				</div>
@@ -442,9 +444,14 @@
 
 <div class="col-12 col-sm-4">
 	<div id="user-data" class="content-box bg-dark text-white">
+		<p>Preencha os campos ao lado e o código abaixo será gerado.</p>
 		<pre><code id="code-copy" class="language-html" data-lang="html"><?php include 'code.php'; ?></code></pre>
 		<div class="text-right">
-			<a href="#" class="btn btn-outline-light btn-sm" id="copy-code-btn">Copiar</a>
+			<a href="#" class="btn btn-outline-light btn-sm" id="copy-code-btn" data-toggle="tooltip" data-placement="top" title="Copiar para a área de trabalho">Copiar</a>
 		</div>
 	</div>
+</div>
+
+<div class="col-12 col-sm-4">
+	&nbsp;
 </div>

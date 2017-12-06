@@ -1,25 +1,26 @@
 <head>
 	<meta charset="utf-8">
 	<title>Gerador de Meta Tags</title>
-	<meta name="description" content="Conheça a ferramenta gratuita e online que te ajudará na criação das meta tags do seu site. Preparar uma página otimizada para SEO agora ficou fácil! Pronta para buscadores como o Google e redes sociais como o Facebook!">
+	<meta name="description" content="Saiba o que é necessário para ficar em primeiro lugar no Google! Conheça a ferramenta que te ajudará a preparar as meta tags de uma página otimizada para SEO.">
 	<meta name="robots" content="index, follow">
 	<meta name="author" content="Rock Content">
+	<meta name="keywords" content="meta tags">
 
 	<!-- Favicon -->
 	<link rel="icon" href="img/favicon.png">
 
 	<!-- OpenGraph -->
-	<meta property="og:title" content="Gerador de Meta Tags"/>
-	<meta property="og:description" content="descricao da ferramenta"/>
-	<meta property="og:type" content=""/>
-	<meta property="og:url" content="url da ferramenta"/>
+	<meta property="og:title" content="O Gerador de Meta Tags, uma ferramenta Rock Content"/>
+	<meta property="og:description" content="Saiba o que é necessário para ficar em primeiro lugar no Google! Conheça a ferramenta que te ajudará a preparar as meta tags de uma página otimizada para SEO."/>
+	<meta property="og:type" content="page"/>
+	<meta property="og:url" content="http://ferramentas.rockcontent.com/gerador-de-meta-tags/"/>
 	<meta property="og:image" content="url da imagem de og"/>
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="product">
 	<meta name="twitter:site" content="@rockcontent">
-	<meta name="twitter:title" content="Gerador de Meta Tags">
-	<meta name="twitter:description" content="descricao da ferramenta">
+	<meta name="twitter:title" content="O Gerador de Meta Tags, uma ferramenta Rock Content">
+	<meta name="twitter:description" content="Saiba o que é necessário para ficar em primeiro lugar no Google! Conheça a ferramenta que te ajudará a preparar as meta tags de uma página otimizada para SEO.">
 	<meta name="twitter:image" content="url da imagem pro twitter">
 
 	<!-- Custom Plugins -->
