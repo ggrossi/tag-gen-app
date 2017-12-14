@@ -1,6 +1,6 @@
 <head>
 	<meta charset="utf-8">
-	<title>Gerador de Meta Tags</title>
+	<title>Gerador de Meta Tags - Rock Content</title>
 	<meta name="description" content="Saiba o que é necessário para ficar em primeiro lugar no Google! Conheça a ferramenta que te ajudará a preparar as meta tags de uma página otimizada para SEO.">
 	<meta name="robots" content="index, follow">
 	<meta name="author" content="Rock Content">

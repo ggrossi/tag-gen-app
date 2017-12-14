@@ -13,17 +13,16 @@
 
           <div class="col-12 col-sm-3 offset-sm-1 col-md-3 offset-md-1">
             <p>
-              <a href="https://marketingdeconteudo.com/meta-tags-para-redes-sociais/" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">short_text</i> Meta Tags para Redes Sociais</a><br>
-              <a href="https://marketingdeconteudo.com/meta-description/" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">short_text</i> Tudo sobre Meta Description</a><br>
-              <a href="https://marketingdeconteudo.com/o-que-e-seo/" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">short_text</i> O que é SEO</a>
+              <a href="https://marketingdeconteudo.com/meta-tags-para-redes-sociais?utm_source=ferramentas&utm_medium=menu" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">short_text</i> Meta Tags para Redes Sociais</a><br>
+              <a href="https://marketingdeconteudo.com/meta-description?utm_source=ferramentas&utm_medium=menu" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">short_text</i> Tudo sobre Meta Description</a><br>
+              <a href="https://marketingdeconteudo.com/o-que-e-seo?utm_source=ferramentas&utm_medium=menu" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">short_text</i> O que é SEO</a>
             </p>
           </div>
-
           <div class="col-12 col-sm-3 col-md-3">
             <p>
-              <a href="https://materiais.rockcontent.com/guia-seo-rockcontent" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">library_books</i> SEO 2.0: O Guia Definitivo</a><br>
-              <a href="http://materiais.rockcontent.com/guia-definitivo-blog-corporativo" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">library_books</i> Guia do Blog Corporativo</a><br>
-              <a href="https://materiais.rockcontent.com/guia-seo-rockcontent" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">school</i> Curso de SEO</a>
+              <a href="https://materiais.rockcontent.com/guia-seo-rockcontent?utm_source=ferramentas&utm_medium=menu" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">library_books</i> SEO 2.0: O Guia Definitivo</a><br>
+              <a href="http://materiais.rockcontent.com/guia-definitivo-blog-corporativo?utm_source=ferramentas&utm_medium=menu" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">library_books</i> Guia do Blog Corporativo</a><br>
+              <a href="https://materiais.rockcontent.com/guia-seo-rockcontent?utm_source=ferramentas&utm_medium=menu" target="_blank"><i class="material-icons" style="font-size: 0.9rem;">school</i> Curso de SEO</a>
             </p>
           </div>
 
@@ -44,7 +43,7 @@
     </ul>
 
     <form class="form-inline my-2 my-lg-0">
-      <a href="http://rockcontent.com/consultor" target="_blank" class="btn btn-sm btn-primary mr-sm-2">Comece a fazer Marketing de Conteúdo</a>
+      <a href="http://rockcontent.com/consultor?utm_source=ferramentas&utm_medium=menu" target="_blank" class="btn btn-sm btn-info mr-sm-2">Comece a fazer Marketing de Conteúdo</a>
     </form>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
