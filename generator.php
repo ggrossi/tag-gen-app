@@ -1,10 +1,22 @@
-<div class="col-12 col-sm-8">
+
+	<div class="col-12">
+		<p>Este é um <strong>Guia de Introdução à Otimização para Motores de Busca</strong>, o qual visa ajudar qualquer indivíduo – seja iniciante ou profissional – que deseja melhorar a interação dos seus sites com os utilizadores e com o motor de busca da Google.</p>
+		<p>Embora este guia não revele segredos para atingir automaticamente o primeiro lugar na busca (nem o Google revela isso 🤐), ao seguir os conselhos abaixo especificados, é perceptível o aumento drástico da capacidade de rastrear (<em>crawling</em>), indexar e classificar os conteúdos do seu site.</p>
+
+		<h6>Como usar?</h6>
+		<p class="small">
+			Preencha os campos abaixo e o código será gerado.<br>
+			Caso você tenha alguma dúvida ao longo dos campos, procure os ícones com uma marca de interrogação: <i class="material-icons" style="font-size: 19px;">help</i>.
+		</p>
+	</div>
+
+	<hr>
+
+	<div class="col-12 col-sm-8">
 	<div class="content-box">
 		<form id="user-input">
-
 			<h3>Meta Tags</h3>
-
-			<p>Meta tags são lindas</p>
+			<p>As Meta Tags são XXXXXX.</p>
 
 			<div class="form-group row">
 				<label for="title-input" class="col-sm-3 col-form-label">
@@ -113,7 +125,11 @@
 				<!--<input type="text" class="form-control" id="lang-input" placeholder="">-->
 				<div class="col-sm-9">
 					<select class="form-control" id="lang-input">
-						<option selected selected option:disabled  style="display: none;">Escolha o idioma</option>
+						<option selected selected option:disabled style="display: none;">Escolha o idioma</option>
+						<option value="pt-BR">Português (Brasil)</option>
+						<option value="en">Inglês</option>
+						<option value="es">Espanhol</option>
+
 						<option value="af">Afrikaans</option>
 						<option value="af-ZA">Afrikaans (South Africa)</option>
 						<option value="ar">Arabic</option>
@@ -414,16 +430,16 @@
 			<h3>Outros</h3>
 
 			<div class="form-group row">
-				<label for="" class="col-sm-3 col-form-label">ID Analytics</label>
+				<label for="" class="col-sm-3 col-form-label">ID do Google Analytics</label>
 				<div class="col-sm-9">
-					<input type="text" class="form-control" id="analytics-input" placeholder="Exemplo: UA-12345678-90" maxlength="20">
+					<input type="text" class="form-control" id="analytics-input" placeholder="UA-12345678-90" maxlength="20">
 				</div>
 			</div>
 
 			<div class="form-group row">
-				<label for="" class="col-sm-3 col-form-label">ID Tag Manager</label>
+				<label for="" class="col-sm-3 col-form-label">ID do Google Tag Manager</label>
 				<div class="col-sm-9">
-					<input type="text" class="form-control" id="tagmng-input" placeholder="Exemplo: GTM-ABCDE1" maxlength="20">
+					<input type="text" class="form-control" id="tagmng-input" placeholder="GTM-ABCDE1" maxlength="20">
 				</div>
 			</div>
 
@@ -444,7 +460,6 @@
 
 <div class="col-12 col-sm-4">
 	<div id="user-data" class="content-box bg-dark text-white">
-		<p>Preencha os campos ao lado e o código abaixo será gerado.</p>
 		<pre><code id="code-copy" class="language-html" data-lang="html"><?php include 'code.php'; ?></code></pre>
 		<div class="text-right">
 			<a href="#" class="btn btn-outline-light btn-sm" id="copy-code-btn" data-toggle="tooltip" data-placement="top" title="Copiar para a área de trabalho">Copiar</a>
@@ -452,6 +467,71 @@
 	</div>
 </div>
 
-<div class="col-12 col-sm-4">
-	&nbsp;
+<div class="container">
+	<div class="col">
+		<img src="img/gente.png" alt="" class="img-fluid">
+	</div>
+	<div class="card-columns">
+	  <div class="card">
+	    <img class="card-img-top" src="img/gente.png" alt="Card image cap">
+	    <div class="card-body">
+	      <h4 class="card-title">Dica importante</h4>
+	      <p class="card-text">A criação de conteúdo atraente e útil é <strong>o fator que provavelmente exercerá mais influência sobre o desempenho do seu site</strong>, mais que qualquer outro discutido aqui. Os usuários sabem reconhecer bons conteúdos e estão propensos a direcionar outros usuários a eles. Esse redirecionamento pode ocorrer por meio de postagens de blog, serviços de mídia social, e-mails, fóruns ou outros meios.</p>
+	    </div>
+	  </div>
+	  <div class="card p-3">
+	    <blockquote class="blockquote mb-0 card-body">
+	      <p>O buzz orgânico (ou de boca a boca) é o que ajuda a construir a reputação do seu site com os usuários e o Google, e isso raramente se consegue sem conteúdo de qualidade.</p>
+	      <footer class="blockquote-footer">
+	        <small class="text-muted">
+	          Google em <a href="https://support.google.com/webmasters/answer/7451184?hl=pt-BR"><cite title="Otimização de mecanismos de pesquisa (SEO) para iniciantes">Otimização de mecanismos de pesquisa (SEO) para iniciantes</cite></a>.
+	        </small>
+	      </footer>
+	    </blockquote>
+	  </div>
+	  <div class="card">
+	    <img class="card-img-top" src="..." alt="Card image cap">
+	    <div class="card-body">
+	      <h4 class="card-title">Card title</h4>
+	      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+	      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+	    </div>
+	  </div>
+	  <div class="card bg-primary text-white text-center p-3">
+	    <blockquote class="blockquote mb-0">
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+	      <footer class="blockquote-footer">
+	        <small>
+	          Someone famous in <cite title="Source Title">Source Title</cite>
+	        </small>
+	      </footer>
+	    </blockquote>
+	  </div>
+	  <div class="card text-center">
+	    <div class="card-body">
+	      <h4 class="card-title">Card title</h4>
+	      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+	      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <img class="card-img" src="..." alt="Card image">
+	  </div>
+	  <div class="card p-3 text-right">
+	    <blockquote class="blockquote mb-0">
+	      <p>O buzz orgânico (ou de boca a boca) é o que ajuda a construir a reputação do seu site com os usuários e o Google, e isso raramente se consegue sem conteúdo de qualidade.</p>
+	      <footer class="blockquote-footer">
+	        <small class="text-muted">
+	          Someone famous in <cite title="Source Title">Source Title</cite>
+	        </small>
+	      </footer>
+	    </blockquote>
+	  </div>
+	  <div class="card">
+	    <div class="card-body">
+	      <p class="card-text">Cheque o <b>Search Engine Optimization (SEO) Starter Guide</b> (<a href="https://support.google.com/webmasters/answer/7451184" target="_blank">inglês</a> - <a href="https://support.google.com/webmasters/answer/7451184?hl=pt-BR" target="_blank">português</a>) sempre que puder. Trata-se de um Guia com as informações atualizadas sobre SEO criado pelo próprio Google.</p>
+	      <p class="card-text"><small class="text-muted">Última atualização em dezembro de 2017</small></p>
+	    </div>
+	  </div>
+	</div>
 </div>

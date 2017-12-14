@@ -66,8 +66,23 @@ pre {
 
 .header {
 	background: URL(../img/bgg.png) center;
-	color: white !important;
+	background: #1bb7d0;
+	background: #80CBC4;
+	color: #fafafa !important;
 	padding: 75px 0;
+	margin-bottom: 50px;
+}
+
+.footer {
+	color: #444;
+	margin-top: 50px;
+	padding: 25px 0;
+}
+.footer .small {
+	font-size: 0.7rem;
+}
+.footer .copyright {
+	color: #aaa;
 }
 
 h2 {
@@ -94,7 +109,7 @@ h2 {
 }
 
 .content-box {
-	background-color: #eee;
+	background-color: #fafafa;
 	/*border-radius: 5px;
 	margin: 20px;
 	padding: 5px;*/
@@ -102,18 +117,6 @@ h2 {
 
 #user-input, #user-data {
 	padding: 35px;
-}
-
-.footer {
-	color: #444;
-	margin-top: 50px;
-	padding: 25px 0;
-}
-.footer .small {
-	font-size: 0.7rem;
-}
-.footer .copyright {
-	color: #aaa;
 }
 
 label .material-icons {

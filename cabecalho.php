@@ -1,22 +1,15 @@
 <section class="header">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-md-8">
+			<div class="col-12 col-md-6">
 				<h2>Quer ficar em primeiro lugar no Google?</h2>
+				<br>
+				<p>O <strong>Gerador de Meta Tags</strong> é uma ferramenta que vai te ajudar com as tags HTML necessárias para rankear bem no Google, Bing, Yahoo, Ask, entre outros. Ou seja, ele funciona como um <strong>guia de Otimização para Motores de Busca</strong> para usuários de todos os níveis.</p>
+				<p>Comece preenchendo os campos abaixo e em seguida cole o código gerado em seu site.</p>
+			</div>
+			<div class="col col-md-5 offset-md-1">
+				<img src="https://cdn.dribbble.com/users/129991/screenshots/2971520/ww.gif" alt="" class="img-fluid">
 			</div>
 		</div>
 	</div>
 </section>
-
-	<div class="row" style="margin: -50px 0 50px 0;">
-		<div class="container">
-			<div class="col-12">
-				<div class="card">
-					<div class="card-body">
-						<p>Este é um <strong>Guia de Introdução à Otimização para Motores de Busca</strong>, o qual visa ajudar qualquer indivíduo – seja iniciante ou profissional – que deseja melhorar a interação dos seus sites com os utilizadores e com o motor de busca da Google.</p>
-						<p>Embora este guia não revele segredos para atingir automaticamente o primeiro lugar na busca (nem o Google revela isso 🤐), ao seguir os conselhos abaixo especificados, é perceptível o aumento drástico da capacidade de rastrear (<em>crawling</em>), indexar e classificar os conteúdos do seu site.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
