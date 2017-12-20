@@ -68,6 +68,15 @@ pre {
 	background: URL(../img/bgg.png) center;
 	background: #1bb7d0;
 	background: #80CBC4;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#263473+1,524595+100 */
+	background: #263473; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #263473 1%, #524595 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #263473 1%,#524595 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #263473 1%,#524595 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#263473', endColorstr='#524595',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+
 	color: #fafafa !important;
 	padding: 75px 0;
 	margin-bottom: 50px;

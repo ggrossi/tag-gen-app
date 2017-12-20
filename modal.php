@@ -16,25 +16,25 @@
 						</p>
 						<div class="col form-group">
 							<label for="firstname">Nome</label>
-							<input name="firstname" id="firstname" class="form-control" aria-describedby="emailHelp" placeholder="Fulano da Silva">
+							<input name="firstname" id="firstname" class="form-control" aria-describedby="emailHelp" placeholder="Fulano da Silva" required>
 						</div>
 						<div class="col form-group">
 							<label for="email">E-mail</label>
-							<input name="email" id="email" type="email" class="form-control" aria-describedby="emailHelp" placeholder="exemplo@empresa.com">
+							<input name="email" id="email" type="email" class="form-control" aria-describedby="emailHelp" placeholder="exemplo@empresa.com" required>
 							<small id="emailHelp" class="form-text text-muted">De preferência seu email empresarial.</small>
 						</div>
 						<div class="col form-group">
 							<label for="phone">Telefone</label>
-							<input name="phone" id="phone" class="form-control" placeholder="">
+							<input name="phone" id="phone" class="form-control" placeholder="00 0000-0000" required>
 						</div>
 						<div class="col form-group">
 							<label for="website">Site da empresa</label>
-							<input name="website" id="website" class="form-control" placeholder="">
+							<input name="website" id="website" class="form-control" placeholder="wwww.site.com" required>
 						</div>
 						<div class="col form-group">
 							<label for="industry">Área de atuação da empresa</label>
-							<select name="industry" id="industry" class="form-control">
-						        <option select option:disabled style="display: none;">Selecione a opção</option>
+							<select name="industry" id="industry" class="form-control" required>
+						        <option selected option:disabled value="" style="display: none;">Selecione a opção</option>
 						        <option>Agência de Marketing/Publicidade</option>
 						        <option>Tecnologia</option>
 						        <option>Educação</option>
@@ -58,8 +58,8 @@
 						</div>
 						<div class="col form-group">
 							<label for="numemployees">Número de funcionários</label>
-							<select name="numemployees" id="numemployees" class="form-control">
-						        <option select option:disabled style="display: none;">Selecione a opção</option>
+							<select name="numemployees" id="numemployees" class="form-control" required>
+						        <option selected option:disabled value="" style="display: none;">Selecione a opção</option>
 						        <option>Individual</option>
 						        <option>2-5</option>
 						        <option>5-25</option>
@@ -74,8 +74,8 @@
 						</div>
 						<div class="col form-group">
 							<label for="website_objective">Qual o maior desafio do seu site?</label>
-							<select name="website_objective" id="website_objective" class="form-control">
-						        <option select option:disabled style="display: none;">Selecione a opção</option>
+							<select name="website_objective" id="website_objective" class="form-control" required>
+						        <option selected option:disabled value="" style="display: none;">Selecione a opção</option>
 						        <option>Atrair mais visitantes</option>
 						        <option>Engajar os visitantes</option>
 						        <option>Converter visitantes em novos negócios</option>
@@ -85,7 +85,7 @@
 
 					</div>
 					<div class="modal-footer text-center">
-						<button name="enviar" id="enviar" type="submit" class="btn btn-primary mx-auto">Acessar</button>
+						<button name="enviar" id="enviar" type="submit" class="btn btn-info mx-auto">Acessar</button>
 					</div>
 				</form>
 
