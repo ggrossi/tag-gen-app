@@ -2,15 +2,7 @@
 	<div class="col-12">
 		<p>Este é um <strong>Guia de Introdução à Otimização para Motores de Busca</strong>, o qual visa ajudar qualquer indivíduo – seja iniciante ou profissional – que deseja melhorar a interação dos seus sites com os utilizadores e com o motor de busca da Google.</p>
 		<p>Embora este guia não revele segredos para atingir automaticamente o primeiro lugar na busca (nem o Google revela isso 🤐), ao seguir os conselhos abaixo especificados, é perceptível o aumento drástico da capacidade de rastrear (<em>crawling</em>), indexar e classificar os conteúdos do seu site.</p>
-
-		<h6>Como usar?</h6>
-		<p class="small">
-			Preencha os campos abaixo e o código será gerado.<br>
-			Caso você tenha alguma dúvida ao longo dos campos, procure os ícones com uma marca de interrogação: <i class="material-icons" style="font-size: 19px;">help</i>.
-		</p>
 	</div>
-
-	<hr>
 
 	<div class="col-12 col-sm-8">
 	<div class="content-box">
@@ -459,6 +451,16 @@
 </div>
 
 <div class="col-12 col-sm-4">
+	<div class="card">
+		<div class="card-body">
+		  <p class="card-text small"><b>Como usar?</b></p>
+		  <p class="card-text small">
+					Preencha os campos e um código HTML será gerado no box cinza. Caso você tenha alguma dúvida ao longo dos campos, procure os ícones com uma marca de interrogação: <i class="material-icons" style="font-size: 0.7rem;">help</i>.
+		</div>
+	</div>
+
+	<br>
+
 	<div id="user-data" class="content-box bg-dark text-white">
 		<pre><code id="code-copy" class="language-html" data-lang="html"><?php include 'code.php'; ?></code></pre>
 		<div class="text-right">
@@ -467,7 +469,9 @@
 	</div>
 </div>
 
-<div class="container">
+
+
+<div class="container collapse">
 	<div class="col">
 		<img src="img/gente.png" alt="" class="img-fluid">
 	</div>
