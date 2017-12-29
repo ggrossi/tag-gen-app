@@ -29,7 +29,7 @@
 						</div>
 						<div class="col form-group">
 							<label for="website">Site da empresa</label>
-							<input name="website" id="website" class="form-control" placeholder="wwww.site.com" required>
+							<input name="website" id="website" class="form-control" placeholder="http://www.site.com" required>
 						</div>
 						<div class="col form-group">
 							<label for="industry">Área de atuação da empresa</label>
