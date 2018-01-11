@@ -1,6 +1,4 @@
 	<div class="col-12 col-sm-8">
-
-
 		<p>Embora este guia não revele segredos para atingir automaticamente o primeiro lugar na busca (nem o Google revela isso :/), ao seguir os conselhos listados abaixo, é perceptível um <b>aumento drástico</b> da capacidade de <strong>rastrear</strong> (<em>crawling</em>), <strong>indexar</strong> e <strong>classificar</strong> os conteúdos do seu site.</p>
 		<p>Vamos começar?</p>
 
@@ -12,7 +10,7 @@
 				<div class="form-group row">
 					<label for="title-input" class="col-sm-3 col-form-label">
 						Título da página
-						<a data-toggle="collapse" href="#title" aria-expanded="false" aria-controls="title"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="O que escrever aqui?">help</i></a>
+						<a data-toggle="collapse" href="#title" aria-expanded="false" aria-controls="title"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
 					<div class="col-sm-9">
 						<input type="text" class="form-control" id="title-input" placeholder="" maxlength="100">
@@ -22,14 +20,14 @@
 
 						<div class="collapse" id="title">
 							<small id="titleHelp" class="form-text text-muted">
-								<p><strong>O title tag indica aos utilizadores e ao motor de busca qual o tópico de uma determinada página.</strong> O título de uma página deve ter uma média de 60 caracteres e deve falar do principal tema da página. É altamente indicado que seja inserido aqui a palavra-chave que você quer rankear.</p>
-								<p>Dicas do Google:</p>
+								<p>A title tag é o título da sua página que aparece nos buscadores. Ela indica aos usuários e ao motor de busca qual o tópico daquela página. Uma boa title tag deve apresentar o conteúdo da página e deve conter a palavra-chave que você procura rankear. É recomendável que a title tag tenha uma média de 60 caracteres.</p>
+								<p>Recomendações do Google:</p>
 								<ul>
 									<li>Descreva com precisão o conteúdo da sua página (resuma muito bem o que está na sua página);</li>
 									<li>Crie títulos únicos para cada página (não tenha páginas em seu site com o mesmo título);</li>
 									<li>Utilize títulos descritivos, mas curtos.</li>
 								</ul>
-								<p>Exemplo: Se uma sorveteria quer rankear para "Sorvete de Morango", é indicado que o título da página seja "Sorvete de Morango - Sorveteria do Manel".</p>
+								<p>Exemplo: Se um e-commerce de acessórios quer rankear para "Óculos de Sol", é recomendável criar um título como "Óculos de Sol: encontre um perfeito para você — Nome da loja".</p>
 							</small>
 						</div>
 					</div>
@@ -38,7 +36,7 @@
 				<div class="form-group row">
 					<label for="desc-input" class="col-sm-3 col-form-label">
 						Descrição da página
-						<a data-toggle="collapse" href="#description" aria-expanded="false" aria-controls="description"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="O que escrever aqui?">help</i></a>
+						<a data-toggle="collapse" href="#description" aria-expanded="false" aria-controls="description"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
 					<div class="col-sm-9">
 						<!--<input type="text" class="form-control" id="desc-input" placeholder="">-->
@@ -48,11 +46,14 @@
 						</div>
 						<div class="collapse" id="description">
 							<small id="titleHelp" class="form-text text-muted">
-								<p><strong>As meta tags descritivas são importantes pois o Google poderá utilizá-las como textos de descrição (<i data-toggle="tooltip" data-placement="top" title="Snippet é isso.">snippet</i>) das suas páginas.</strong> Ela será utilizada como texto de descrição da sua página. Dicas do Google:</p>
+								<p>As tags de descrição são, como o nome sugere, a descrição do conteúdo daquela página, indicando para o Google (e outros motores de busca) qual é o conteúdo da sua página com mais detalhes. Elas provavelmente serão usadas como <i data-toggle="tooltip" data-placement="top" title="Snippet é isso.">snippets</i> de descrição da página visíveis para o usuário. Por isso, garanta que sua meta description seja convidativa e desperta a curiosidade.</p>
+								<p>Embora sejam mais longas, é aconselhável escrever no máximo três frases curtas, compondo um pequeno parágrafo. Isso porque sua descrição deve aparecer sem cortes no buscador. Não há um consenso, atualmente, sobre o número de caracteres da descrição, mas sim sobre a largura que o seu texto ocupa. Por isso, é recomendável que essa descrição tenha entre 150 e 300 caracteres.</p>
+								<p>Recomendações do Google:</p>
 								<ul>
 									<li>Descreva com precisão um resumo do conteúdo da sua página (evite escrever uma tag não relacionada com o conteúdo da sua página ou algo muito vago como "Esta é uma página do site X");</li>
 									<li>Crie descrições únicas para cada página, assim o Google vai poder relacionar a busca de um indivíduo com seu conteúdo de uma melhor forma.</li>
 								</ul>
+								<p>Exemplo: Proteção para seus olhos, estilo e conforto: aliamos tudo isso nos melhores óculos escuros. Descubra um que seja ideal para você: acesse e confira todos os modelos disponíveis!</p>
 							</small>
 						</div>
 					</div>
@@ -61,18 +62,18 @@
 				<div class="form-group row">
 					<label for="url-input" class="col-sm-3 col-form-label">
 						URL da página
-						<a data-toggle="collapse" href="#url" aria-expanded="false" aria-controls="url"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="O que escrever aqui?">help</i></a>
+						<a data-toggle="collapse" href="#url" aria-expanded="false" aria-controls="url"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
 					<div class="col-sm-9">
 						<input type="text" class="form-control" id="url-input" placeholder="">
 						<div class="collapse" id="url">
 							<small id="titleHelp" class="form-text text-muted">
-								<p><strong>O title tag indica aos utilizadores do seu site e ao motor de busca qual o tópico de uma determinada página.</strong> O título de uma página deve ter uma média de 160 caracteres e deve falar do principal tema da página. É altamente indicado que seja inserido aqui a palavra-chave que você quer rankear. Dicas do Google:</p>
+								<p>A URL é o endereço da sua página online e, portanto, única. É importante que ela seja de fácil compreensão, tanto para o usuário quanto para o buscador. Evite números e palavras complicadas. Sempre use a palavra-chave na URL.</p>
+								<p>Recomendações do Google:</p>
 								<ul>
-									<li>Descreva com precisão o conteúdo da sua página (resuma muito bem o que está na sua página);</li>
-									<li>Crie títulos únicos para cada página (não tenha páginas em seu site com o mesmo título);</li>
-									<li>Utilize títulos descritivos, mas curtos.</li>
+									<li>Use https:// sempre que possível.</li>
 								</ul>
+								<p>Exemplo: https://www.nomedaloja.com/oculos/oculos-escuros.</p>
 							</small>
 						</div>
 					</div>
@@ -90,7 +91,7 @@
 				<div class="form-group row">
 					<label for="robots-input" class="col-sm-3 col-form-label">
 						Robots
-						<a data-toggle="collapse" href="#robots" aria-expanded="false" aria-controls="robots"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="O que escrever aqui?">help</i></a>
+						<a data-toggle="collapse" href="#robots" aria-expanded="false" aria-controls="robots"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
 					<div class="col-sm-9">
 						<select class="form-control" id="robots-input">
@@ -110,7 +111,7 @@
 				<div class="form-group row">
 					<label for="author-input" class="col-sm-3 col-form-label">
 						Autor da página
-						<a data-toggle="collapse" href="#author" aria-expanded="false" aria-controls="author"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="O que escrever aqui?">help</i></a>
+						<a data-toggle="collapse" href="#author" aria-expanded="false" aria-controls="author"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
 					<div class="col-sm-9">
 						<input type="text" class="form-control" id="author-input" placeholder="">
@@ -120,7 +121,7 @@
 				<div class="form-group row">
 					<label for="lang-input" class="col-sm-3 col-form-label">
 						Idioma
-						<a data-toggle="collapse" href="#language" aria-expanded="false" aria-controls="language"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="O que escrever aqui?">help</i></a>
+						<a data-toggle="collapse" href="#language" aria-expanded="false" aria-controls="language"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
 					<!--<input type="text" class="form-control" id="lang-input" placeholder="">-->
 					<div class="col-sm-9">
@@ -362,7 +363,7 @@
 				<div class="form-group row">
 					<label for="key-input" class="col-sm-3 col-form-label">
 						Keywords
-						<a data-toggle="collapse" href="#keywords" aria-expanded="false" aria-controls="keywords"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="O que escrever aqui?">help</i></a>
+						<a data-toggle="collapse" href="#keywords" aria-expanded="false" aria-controls="keywords"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
 					<div class="col-sm-9">
 						<input type="text" class="form-control" id="key-input" placeholder="Palavras chave separadas por vírgula">
@@ -375,12 +376,26 @@
 
 				<p>As tags Open Graph vão te permitir personalizar o que aparecerá no compartilhamento de mídias sociais como o Facebook, Twitter, LinkedIn, entre outras.</p>
 
-				<h4>Facebook</h4>
+				<h4>Facebook e Twitter</h4>
 
 				<div class="form-group row">
 					<label for="ogtitle-input" class="col-sm-3 col-form-label">
 						Título
-						<a data-toggle="collapse" href="#keywords" aria-expanded="false" aria-controls="keywords"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="O que escrever aqui?">help</i></a>
+						<i class="fa fa-facebook" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Facebook"></i>
+						<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
+						<a data-toggle="collapse" href="#ogtitle" aria-expanded="false" aria-controls="ogtitle"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
+					</label>
+					<div class="col-sm-9">
+						<input type="text" class="form-control" id="ogtitle-input" placeholder="">
+					</div>
+				</div>
+
+				<div class="form-group row">
+					<label for="ogtitle-input" class="col-sm-3 col-form-label">
+						Descrição
+						<i class="fa fa-facebook" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Facebook"></i>
+						<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
+						<a data-toggle="collapse" href="#ogdescription" aria-expanded="false" aria-controls="ogdescription"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
 					<div class="col-sm-9">
 						<input type="text" class="form-control" id="ogtitle-input" placeholder="">
@@ -390,7 +405,9 @@
 				<div class="form-group row">
 					<label for="ogurl-input" class="col-sm-3 col-form-label">
 						URL
-						<a data-toggle="collapse" href="#ogurl" aria-expanded="false" aria-controls="ogurl"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="O que escrever aqui?">help</i></a>
+						<i class="fa fa-facebook" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Facebook"></i>
+						<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
+						<a data-toggle="collapse" href="#ogurl" aria-expanded="false" aria-controls="ogurl"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
 					<div class="col-sm-9">
 						<input type="text" class="form-control" id="ogurl-input" placeholder="">
@@ -400,7 +417,9 @@
 				<div class="form-group row">
 					<label for="ogimageInput" class="col-sm-3 col-form-label">
 						URL da imagem
-						<a data-toggle="collapse" href="#ogimage" aria-expanded="false" aria-controls="ogimage"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="O que escrever aqui?">help</i></a>
+						<i class="fa fa-facebook" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Facebook"></i>
+						<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
+						<a data-toggle="collapse" href="#ogimage" aria-expanded="false" aria-controls="ogimage"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
 					<div class="col-sm-9">
 						<input type="text" class="form-control" id="ogimageInput" placeholder="">
@@ -410,29 +429,20 @@
 				<div class="form-group row">
 					<label for="ogauthor-input" class="col-sm-3 col-form-label">
 						Autor
-						<a data-toggle="collapse" href="#ogauthor" aria-expanded="false" aria-controls="ogauthor"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="O que escrever aqui?">help</i></a>
+						<i class="fa fa-facebook" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Facebook"></i>
+						<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
+						<a data-toggle="collapse" href="#ogauthor" aria-expanded="false" aria-controls="ogauthor"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
 					<div class="col-sm-9">
 						<input type="text" class="form-control" id="ogauthor-input" placeholder="">
 					</div>
 				</div>
 
-				<div id="og" class="card og mx-auto">
-					<div class="card-body">
-	    			<h6 class="card-subtitle mb-2 text-muted">Exemplo de como sua página vai aparecer no Facebook</h6>
-						<div><img id="ogimgUserPreview" class="img-fluid"></div>
-						<div id="ogtitle-user-preview" class="ogTitle"></div>
-						<div id="ogdesc-user-preview" class="ogDescription"></div>
-						<div id="ogurl-user-preview" class="ogURL"></div>
-					</div>
-				</div>
-
-				<h4>Twitter</h4>
-
 				<div class="form-group row">
 					<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">
 						Username
-						<a data-toggle="collapse" href="#ttsite" aria-expanded="false" aria-controls="ttsite"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="O que escrever aqui?">help</i></a>
+						<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
+						<a data-toggle="collapse" href="#ttsite" aria-expanded="false" aria-controls="ttsite"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
 					<div class="col-sm-9">
 						<input type="text" class="form-control" id="ttsite-input" placeholder="">
@@ -442,22 +452,63 @@
 				<div class="form-group row">
 					<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">
 						Username
-						<a data-toggle="collapse" href="#ttcreator" aria-expanded="false" aria-controls="ttcreator"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="O que escrever aqui?">help</i></a>
+						<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
+						<a data-toggle="collapse" href="#ttcreator" aria-expanded="false" aria-controls="ttcreator"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
 					<div class="col-sm-9">
 						<input type="text" class="form-control" id="ttcreator-input" placeholder="">
 					</div>
 				</div>
 
+				<div class="form-group row">
+					<label for="exampleFormControlInput1" class="col-sm-3 col-form-label">
+						Destacar imagem tags iguais
+						<i class="fa fa-twitter" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Tag para o Twitter"></i>
+						<a data-toggle="collapse" href="#ttcreator" aria-expanded="false" aria-controls="ttcreator"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
+					</label>
+					<div class="col-sm-9">
+						<input type="text" class="form-control" id="ttcreator-input" placeholder="">
+					</div>
+				</div>
+
+				<div id="og" class="card og mx-auto">
+					<div class="card-body">
+	    			<h6 class="card-subtitle mb-2 text-muted">Exemplo de como sua página vai aparecer no Facebook</h6>
+
+						<div><img id="ogimgUserPreview" class="img-fluid"></div>
+						<div id="ogtitle-user-preview" class="ogTitle"></div>
+						<div id="ogdesc-user-preview" class="ogDescription"></div>
+						<div id="ogurl-user-preview" class="ogURL"></div>
+					</div>
+				</div>
+
+				<div id="ogTwitter" class="card ogTwitter mx-auto">
+					<div class="card-body">
+	    			<h6 class="card-subtitle mb-2 text-muted">Exemplo de como sua página vai aparecer no Twitter</h6>
+
+						<div class="ogTwitterText">Texto personalizável que acompanha o link da sua página.</div>
+						<div class="card" style="width: 100%;">
+							<img class="card-img-top" src="https://marketingdeconteudo.com/wp-content/uploads/2018/01/7-motivos-para-não-contratar-o-seu-sobrinho.png" style="width: 100%">,
+							<img id="ogTwitterimgUserPreview" class="img-fluid">
+							<div class="card-body">
+								<p id="ogTwittertitle-user-preview" class="ogTwitterTitle">8 dicas para combater a dificuldade de concentração e ser mais produtivo</p>
+								<p id="ogTwitterdesc-user-preview" class="ogTwitterDescription">Tem dificuldade de concentração em suas tarefas diárias e gerar resultados constantes? Conheça agora 8 dicas para ser mais produtivo e manter-se focado em suas at...</p>
+								<p id="ogTwitterurl-user-preview" class="ogTwitterURL">marketingdeconteudo.com</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
 				<hr class="my-4">
 				<h3>Extras</h3>
 
-				<p>As tags estão todas prontas?! Ótimo! Basta copiar o código apresentado no box ao lado e inserí-lo em sua página. Agora vamos dar algumas dicas extras para ara continuar aprendendo sobre sua página, pois é muito importante observá-la de perto para trazer o público certo para vê-la.</p>
+				<p>As tags estão todas prontas?! Ótimo! Basta copiar o código apresentado no box ao lado e inserí-lo em sua página.</p>
+				<p>Agora vamos dar algumas dicas extras para ara continuar aprendendo sobre sua página, pois é muito importante observá-la de perto para trazer o público certo para vê-la.</p>
 
 				<div class="form-group row">
 					<label for="" class="col-sm-3 col-form-label">
 						ID do Google Analytics
-						<a data-toggle="collapse" href="#analytics" aria-expanded="false" aria-controls="analytics"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="O que escrever aqui?">help</i></a>
+						<a data-toggle="collapse" href="#analytics" aria-expanded="false" aria-controls="analytics"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
 					<div class="col-sm-9">
 						<input type="text" class="form-control" id="analytics-input" placeholder="UA-12345678-90" maxlength="20">
@@ -467,7 +518,7 @@
 				<div class="form-group row">
 					<label for="" class="col-sm-3 col-form-label">
 						ID do Google Tag Manager
-						<a data-toggle="collapse" href="#tagmanager" aria-expanded="false" aria-controls="tagmanager"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="O que escrever aqui?">help</i></a>
+						<a data-toggle="collapse" href="#tagmanager" aria-expanded="false" aria-controls="tagmanager"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
 					<div class="col-sm-9">
 						<input type="text" class="form-control" id="tagmng-input" placeholder="GTM-ABCDE1" maxlength="20">
@@ -477,7 +528,7 @@
 				<div class="form-group row">
 					<label for="bootstrap-input" class="col-sm-3 col-form-label">
 						Bootstrap
-						<a data-toggle="collapse" href="#bootstrap" aria-expanded="false" aria-controls="bootstrap"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="O que escrever aqui?">help</i></a>
+						<a data-toggle="collapse" href="#bootstrap" aria-expanded="false" aria-controls="bootstrap"><i class="material-icons" data-toggle="tooltip" data-placement="top" title="Clique aqui e saiba o que escrever nesse campo">help</i></a>
 					</label>
 					<div class="col-sm-9">
 						<div class="form-checkbox">
@@ -510,8 +561,6 @@
 		</div>
 	</div>
 </div>
-
-
 
 <div class="container collapse">
 	<div class="col">

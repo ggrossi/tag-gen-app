@@ -128,7 +128,7 @@ h2 {
 	padding: 35px;
 }
 
-label .material-icons {
+label .material-icons, label .fa {
 	color: #999;
 	font-size: 1rem;
 }
@@ -164,6 +164,37 @@ label .material-icons:hover {
 	margin: 25px 0;
 	max-width: 527px;
 }
+
+.ogTwitter {
+	font-family: Helvetica, Arial;
+	font-size: 14px;
+	margin: 25px 0;
+	max-width: 508px;
+}
+.ogTwitterText {
+  line-height: 20px;
+  font-weight: normal;
+	padding-bottom: 10px;
+}
+.ogTwitterTitle {
+	font-weight: bold;
+	line-height: 1.3em;
+	margin: 0 0 .15em;
+}
+.ogTwitterDescription {
+	line-height: 1.3em;
+	margin-top: .32333em;
+	margin-bottom: .32333em;
+}
+.ogTwitterURL {
+  color: #8899A6;
+  max-height: 1.3em;
+	margin-top: .32333em;
+	text-transform: lowercase;
+  white-space: nowrap;
+	margin-bottom: .32333em;
+}
+
 .ogTitle {
 	color: #4b4f56;
 	font-family: Georgia, serif;
